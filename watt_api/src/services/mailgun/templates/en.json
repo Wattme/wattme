@@ -1,0 +1,10 @@
+{
+    "verification": {
+        "subject": "Welcome to WATT",
+        "body": "Thank you for joining us! To continue enter the confirmation code on the sign-up page. Your code is $code"
+    },
+    "restoration": {
+        "subject": "Password restoration",
+        "body": "Have you forgotten your password? No worries! Continue resetting it by entering the confirmation code. Your code is $code"
+    }
+}

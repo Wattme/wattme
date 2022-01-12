@@ -1,0 +1,1462 @@
+{
+  "welcome": {
+    "header": {
+      "title": "Welcome!",
+      "description": "This is a free system to work with cryptocurrency."
+    },
+    "body": {
+      "title": "Wallet settings",
+      "message": "Please import an existing wallet\nor create a new one."
+    },
+    "footer": {
+      "importWallet": "Import your wallet",
+      "createWallet": "Create a new wallet"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "userTitle": "Welcome",
+      "balanceTitle": "Balance",
+      "profitTitle": "Changes per 24 hours",
+      "addWallet": "Add"
+    },
+    "tabs": {
+      "cryptoAssets": "Crypto assets",
+      "nftCollections": "NFT collections"
+    },
+    "typesAddWallet": {
+      "title": "Select the way to add",
+      "create": "Create",
+      "import": "Import",
+      "customToken": "Create token"
+    },
+    "nftDevelop": "NFT collections will be available shortly"
+  },
+  "importWallet": {
+    "header": {
+      "title": "Import"
+    },
+    "dialogSelectedCurrency": {
+      "title": "Network selection",
+      "message": "Select a network to import your wallet",
+      "select": "Please select a coin"
+    },
+    "dialogErrorImportWallet": {
+      "title": "Phrase error",
+      "message": "This phrase is not supported, do you want to continue?",
+      "button": "Skip"
+    },
+    "typesImport": {
+      "phrase": "Phrase",
+      "phrasePlaceholder": "Enter your secret phrase",
+      "privateKey": "Private key",
+      "privateKeyPlaceholder": "Private key",
+      "address": "Address",
+      "addressPlaceholder": "Address",
+
+      "pasteButton": "Insert"
+    },
+
+    "importButton": "Import",
+    "headerTitle": "Legal information",
+    "message": "Please read WATT ME Conditions of Use and Privacy Policies.",
+    "privacyPolicy": "Privacy Policies",
+    "termsOfUse": "Conditions of Use",
+    "checkboxLabel": "I understand that if I lose the secret phrase, I will lose an access to my wallet.",
+    "next": "Continue"
+  },
+  "createWallet": {
+    "header": {
+      "title": "Create a wallet"
+    },
+    "stepZero": {
+      "description": "Please select a coin"
+    },
+    "stepOne": {
+      "description": "If you continue you will see 12 words that allow you to restore your wallet.",
+      "agreement": " I understand that if I lose the secret phrase, I will lose an access to my wallet.",
+      "buttonNext": "Continue"
+    },
+    "stepTwo": {
+      "title": "Your secret phrase",
+      "description": "Save these words in the safe place in the order you see them.",
+      "warn": "Save your restoring phrase and don’t pass your restoring phrase to anybody else.",
+      "buttonCopy": "Copy"
+    },
+    "stepThee": {
+      "description": "Click on the words to put them in the correct order.",
+      "buttonNext": "Confirm the phrase"
+    },
+    "stage1": {
+      "header": "Secret phrase",
+      "phrase1": "Restoring phrase is a master-key to your funds. Don’t pass it to anybody else.",
+      "phrase2": "Watt Wallet never asks you to share your secret restoring phrase.",
+      "phrase3": "If you lose your restoring phrase, even Watt Wallet will not be able to return your funds."
+    },
+
+    "description": "We will create a wallet\nin three steps."
+  },
+  "walletInfo": {
+    "tabs": {
+      "history": "History",
+      "tokens": "Tokens"
+    },
+    "history": {
+      "received": "Received",
+      "cashOut": "Sent",
+
+      "from": "from",
+      "to": "to"
+    },
+    "notification": {
+      "copyAddress": " The address has been successfully copied to the clipboard",
+      "errorAccountForBuyCurrency": "Please sign in or register before cryptocurrency purchase"
+    },
+    "dialogAddToken": {
+      "title": "Add token",
+
+      "contractAddress": "Address of token contract",
+      "contractAddressPlaceholder": "",
+      "tokenSymbol": "Token symbol",
+      "tokenSymbolPlaceholder": "",
+      "tokenName": "Token name",
+      "tokenNamePlaceholder": "",
+      "decimalPlaces": "Amount of  the token decimal places",
+      "decimalPlacesPlaceholder": "",
+
+      "buttonAdd": "Add",
+
+      "errorAddressEmpty": "Complete the contract address",
+      "errorAddressNotValid": "Entered address is not supported",
+      "errorCodeEmpty": "Complete \"Token symbol\"",
+      "errorNameEmpty": "Complete \"Token name\""
+    },
+    "removeWallet": {
+      "title": "Confirmation",
+      "message": "Are you sure you want to delete your wallet?"
+    },
+
+    "totalBalance": "Total balance",
+    "receive": "Receive",
+    "buy": "Buy",
+    "copy": "Copy",
+    "cashOut": "Send",
+    "addCustomToken": "Add token",
+    "successTokenAdd": "Token has been successfully added",
+    "buttonPastContract": "Insert"
+  },
+  "transferSend": {
+    "header": {
+      "title": "Send"
+    },
+    "form": {
+      "commission": "Maximum network commission:",
+      "maxAmount": "Max. amount",
+
+      "labelAmount": "Amount to send",
+      "placeholderAmount": "Enter the address",
+      "labelRecipientAddress": "Recipient address"
+    },
+    "errorSending": {
+      "amountEmpty": "Please enter the amount you want to send",
+      "recipientAddressEmpty": "Please enter the address of a recipient",
+      "bigAmount": "The amount you entered exceeds the balance- commission"
+    },
+    "errorFreshTx": {
+      "low-balance": "Your balance is not enough to complete the transfer",
+
+      "commonError": "Error has been occurred while funds transferring"
+    },
+    "dialogEnterPassword": {
+      "title": "Transfer confirmation",
+      "send": "Send"
+    },
+    "buttonSend": "Send"
+  },
+  "transferSendDone": {
+    "header": {
+      "title": "Sent"
+    },
+
+    "successMessage": "Your transfer has been successfully completed",
+    "buttonRouteBlockChain": "Do to "
+  },
+  "transferReceive": {
+    "header": {
+      "title": "Receive"
+    },
+
+    "walletTitle": "Wallet number",
+
+    "buttonCopy": "Copy",
+    "buttonShare": "Share"
+  },
+  "chart": {
+    "header": {
+      "title": "Current price",
+      "subtitle": "Graph"
+    },
+    "marketChange": {
+      "marketCapitalization": "Market capitalization",
+      "volumeIn24Hours": "Volume in 24 hours"
+    },
+    "tabs": {
+      "myList": "MY LIST",
+      "crypto": "CRYPTO",
+      "defi": "DEFI",
+      "bsc": "BSC"
+    },
+    "searchPlaceholder": "Search"
+  },
+  "setPassCode": {
+    "titlePassCode": "Enter new\nsecret key",
+    "titlePassCodeRepeat": "Please enter your secret key again",
+
+    "dialogFingerprint": {
+      "title": "Sign in with fingerprint or Face ID",
+      "message": "Allow signing in using your fingerprint or Face ID (if available)?",
+
+      "cancel": "No",
+      "approve": "Yes"
+    },
+    "fingerprintScanner": {
+      "title": "Verification required",
+      "cancel": "Undo"
+    }
+  },
+  "walletConnectHome": {
+    "placeholderSearch": "Find DApp or enter the link"
+  },
+  "walletConnectCamera": {
+    "androidCameraPermissionOptions": {
+      "title": "Heading",
+      "message": "Message",
+      "buttonPositive": "Allow",
+      "buttonNegative": "Refuse"
+    }
+  },
+  "modalApplicationLock": {
+    "title": "Enter the secret code.",
+    "fingerprintScannerTitle": "Verification required",
+    "fingerprintScannerCancelButton": "PIN-code",
+
+    "entry": "Log in",
+    "enterPassword": "Enter your password",
+    "forgotCode": "Forgot your PIN-code?",
+    "exit": "Log out"
+  },
+  "wallets": {
+    "headerTitle": "Wallets",
+    "mainWalletTitle": "Main wallet",
+    "additionalWalletTitle": "Additional wallets",
+
+    "createWallet": {
+      "title": "Create a wallet",
+      "nameWallet": "Wallet name",
+      "buttonCreate": "Create"
+    }
+  },
+  "wallet": {
+    "headerTitle": "Wallet"
+  },
+  "setLanguage": {
+    "headerTitle": "Select a language"
+  },
+  "settings": {
+    "header": {
+      "title": "Settings"
+    },
+    "menu": {
+      "account": {
+        "account": "Account"
+      },
+      "security": {
+        "security": "Security"
+      },
+      "common": {
+        "wallets": "Wallets",
+        "language": "Select a language",
+        "fiat": "Currency"
+      },
+
+      "walletConnect": {
+        "walletConnect": "Wallet Connect"
+      },
+
+      "version": {
+        "version": "Version"
+      }
+    }
+  },
+  "selectCurrencyFiat": {
+    "title": "Select currency",
+    "successSetFiat": "Currency has been successfully changed"
+  },
+  "cabinet": {
+    "header": {
+      "title": "Account"
+    },
+    "authorization": {
+      "title": "Sign in",
+      "subtitle": "",
+      "login": "Login",
+      "loginPlaceholder": "email@mail.ru",
+      "password": "Password",
+      "passwordPlaceholder": "********",
+      "buttonLogin": "Log in"
+    }
+  },
+  "security": {
+    "title": "Security",
+
+    "blockingMethod": {
+      "title": "Blocking method",
+      "passCode": "Access code",
+      "passCodeBiometric": "Access code / Biometrics"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "wallet": "Wallet",
+    "browser": "Browser",
+    "trading": "Trading",
+    "account": "Account"
+  },
+  "yup": {
+    "string": "Please enter the line",
+    "required": "Completion required",
+    "email": "Invalid Email",
+    "min": "Minimum length {{min}}"
+  },
+  "notification": {
+    "systemNotification": "System notification",
+    "addBuffer": "Successfully added to the clipboard"
+  },
+  "convertorBitness": {
+    "million": "Million",
+    "millionShort": "m",
+    "billion": "Billion",
+    "billionShort": "bil.",
+    "trillion": "Trillion",
+    "trillionShort": "trillion",
+    "quadrillion": " Quadrillion ",
+    "quadrillionShort": " Quadrillion ",
+    "quintillion": " Quintillion ",
+    "quintillionShort": " Quintillion ",
+    "sextillion": " Sextillion ",
+    "sextillionShort": " Sextillion "
+  },
+  "alertConfirmation": {
+    "buttonSuccess": "Yes",
+    "buttonCancel": "Undo"
+  },
+  "errorWalletApi": {
+    "system-error": "System error",
+    "insufficient-funds": "Insufficient funds",
+    "password-not-correct": "Invalid login or password"
+  },
+  "languages": {
+    "ru-RU": "Russian",
+    "en-EN": "English"
+  },
+  "netInfo": {
+    "message": "No connection"
+  },
+  "applicationGreeting": {
+    "stage1": {
+      "label": "Multifunctional crypto wallet",
+      "message": " Track your cryptocurrency in your wallet and on the exchange "
+    },
+    "stage2": {
+      "label": "Smart-trading",
+      "message": " Connect via API to various exchanges and trade from one terminal "
+    },
+    "stage3": {
+      "label": " Automated trading ",
+      "message": "Create and manage trading bots"
+    },
+
+    "buttonNext": "Continue",
+    "buttonStart": "Start"
+  },
+  "walletInformationCard": {
+    "profitDay": "per day"
+  },
+
+
+
+  "walletConnect": {
+    "wantsConnectYourWallet": "wants to connect to your wallet",
+    "wiewWalletBalanceActivity": "View your wallet balance and activities",
+    "requestApprovalTransactions": "Transaction approval request"
+  },
+  "qualifications": {
+    "not": "No energy"
+  },
+  "popUpSuccessTransaction": {
+    "title": "Transaction has been successfully completed"
+  },
+  "popUpLoadTransaction": {
+    "title": "Transaction in progress"
+  },
+  "tokenWattBusdTopUp": {
+    "headerTitle": "Deposit",
+    "course": "Rate",
+    "formSendTitle": "Send",
+    "formGetTitle": "Receive",
+    "formInputPlaceholder": "Enter the amount in {{code}}",
+    "footerMessage": "To deposit Lock Pool you need to transfer {{coinSend}} \to contract address. There is a commission {{coinCommission}}, of about $0.5.",
+    "errors": {
+      "notWallet": "No wallet {{code}}",
+      "notEnterAmount": "Invalid amount has been entered",
+      "insufficientBalance": "Entered amount exceeds the wallet balance: {{code}}",
+      "insufficientBalancePoll": "Insufficient balance in the pool: {{code}}"
+    },
+    "popUpConfirm": {
+      "title": "Confirmation",
+      "message": "Are you sure you want to make a deposit of {{getAmount}} to your balance {{getCode}}? From your wallet {{fromCode}} will be withdrawn {{fromAmount}} {{fromAmountCode}}"
+    }
+  },
+  "tokenWattP2PPool": {
+    "headerTitle": "P2P Pool",
+    "p2PPoolInfo": {
+      "P2PPool": "P2P Pool",
+      "coins": "Coins",
+      "purchaseAddress": "Purchase address",
+      "topUpAddress": "Deposit address"
+    },
+    "myP2PPool": {
+      "totalAmountFromPool": "Total amount in the pool",
+
+      "amountFromPool": "Pool balance",
+      "poolQueue": "Queue in the pool",
+      "withdrawFromP2PPool": "Withdraw from P2P pool"
+    },
+    "popUpInfoP2PPool": {
+      "title": "P2P Pool",
+      "message": "To create an automated bid for selling your WATT tokens on the secondary market you need to send your WATT tokens to P2P Pool smart-contract. Selling price is set up in advance. At the moment you deposit your BUSD on the smart-contract account, selling and sending  BUSD to you takes place automatically.",
+      "caption": "If your bid is not purchased during one week, smart-contract will return your tokens and you need to send your tokens to sell again.",
+      "successButton": "Ok"
+    },
+    "popUpWithdrawFunds": {
+      "title": "Funds withdraw",
+      "message": "Enter amount you want to withdraw",
+      "amountPlaceholder": "Input"
+    }
+  },
+  "tokenWattTopUp": {
+    "headerTitle": "Deposit WATT",
+    "sliderAmount": {
+      "totalAmountPool": "Total amount in the pool",
+      "remainder": "Balance"
+    },
+    "availableAmountTokens": {
+      "label": "Amount of tokens available"
+    },
+    "roundInformation": {
+      "untilEndRound": "Before the end {{round}} of the round",
+      "startNextRound": "Start of the next round:"
+    },
+    "calcForm": {
+      "inputPlaceholder": "Enter amount in BUSD",
+      "youGet": "You receive"
+    },
+    "footer": {
+      "message": "To make a deposit in the Lock Pool you need to transfer BUSD to the contract address. There is a commission in BNB, maximum $0.5.",
+      "labelConfirm": "I have read and I agree to the Agreement of WATT purchase"
+    },
+    "deal": {
+      "errorAmount": "Enter amount BUSD",
+      "errorWalletNotFount": "Before depositing WATT you need to import wallet BUSD",
+      "errorWalletBusdBalance": "Insufficient balance\nMaximum sending amount - {{amount}}",
+
+      "titleGetWattPopUp": "WATT deposit",
+      "messageGetWattPopUp": "You are sending {{amount}} BUSD, and you will receive {{amountWatt}} WATT instead"
+    }
+  },
+  "tokenWattBuyingToken": {
+    "headerTitle": "WATT token",
+    "tokenCard": {
+      "title": "WATT token",
+      "about": "Details",
+
+      "roundTitle": "ROUND",
+      "roundPrice": "Price",
+      "roundQuantity": "Left"
+    },
+    "purchaseInformation": {
+      "message": "To buy WATT token click on «Buy» icon and send BUSD to the address of the company’s smart-contract.",
+      "caption": "Smart-contract address will be entered automatically"
+    },
+    "lockPool": {
+      "lockPool": "Lock Pool",
+      "coins": "Coins",
+      "completeDefrostPoolWillOccur": "Pool unfreezing starts in",
+      "thawed": "Unfrozen",
+      "bounty": "Bounty",
+      "p2pPool": "P2P Pool"
+    },
+    "popUpBounty": {
+      "title": "Bounty Pool",
+      "message": "Bounty Pool starts working shortly"
+    },
+    "p2PPoll": {
+      "label": "P2P Pool",
+      "coins": "Coins",
+      "addressBuy": "Purchase address",
+      "addressTopUp": "Deposit address",
+
+      "buttonBuy": "Deposit BUSD",
+      "buttonTopUp": "Deposit WATT",
+
+      "popUpTitle": "P2P Pool",
+      "popUpCaption": "To create an automated bid for selling your WATT tokens on the secondary market you need to send your WATT tokens to P2P Pool smart-contract. Selling price is set up in advance. At the moment you deposit your BUSD on the smart-contract account, selling and sending  BUSD to you takes place automatically.",
+      "popUpMessage": " If your bid is not purchased during one week, smart-contract will return your tokens and you need to send your tokens to sell again."
+    },
+    "whitePaper": {
+      "message": "For more information about WATT token, check our Lite Paper",
+      "button": "Lite Paper"
+    },
+    "aboutTokenWatt": {
+      "label": "What is WATT?",
+      "messageAboutWatt": "It is a token that measures your life energy capacity. You can reward your clients, friends, subscribers and fans. It has the power of ‘word-of-mouth’ and ‘6 handshakes’ principles. Thus, WATT token is becoming a powerful tool for stimulation of people and businesses collaboration.",
+
+      "energyLabel": "Get the powerful energy of WATT,\n",
+      "energyMessage": "by recommending everything that is useful for other people: products, services, specialists or information. ",
+
+      "get": "Receive",
+      "send": "Send",
+      "accumulate": "Accumulate",
+
+      "infoSectionLabel": "Use the power of ENERGY for good!"
+    },
+    "aboutPreSaleWatt": {
+      "label": "What is Pre-Sale WATT?",
+      "caption": "As a part of the project’s tokenomics launch, the company is conducting the Private sale of the tokens to the first members with a special price.",
+
+      "round": "Round",
+      "tokenPublicOfferingRoundsWillKickOff": "Rounds of the token Public sale will start",
+
+      "messageReachingGoalsDeadline": "In case of achieving one of the goals before the set time, the next selling round starts. If the round wasn’t sold out before the set time, all the unsold tokens are added to the tokens of the next round and are selling at the price of that round.",
+
+      "tokensPurchasedPresaleLocked": "Tokens purchased at the Pre-Sale stage are frozen for 365 days starting from the moment of purchase. At the end of this period unfreezing of tokens takes place by equal parts during 35 days.",
+      "whatTeedBuy": "To buy WATT token you need BUSD and a small amount of BNB (equal to about $5) to pay a commission."
+    },
+    "sliderLockPool": {
+      "totalAmountPool": "Lock Pool (Round {{round}} - {{amount}}$)",
+      "information": "Information",
+      "transactions": "Transactions"
+    },
+    "frozenFunds": {
+      "poolDefrostWillStart": "Pool defrost will start in",
+      "thawed": "Thawed"
+    },
+    "exchanger": {
+      "title": "P2P exchanger",
+      "exchange": "Exchange"
+    }
+  },
+  "tokenWattInformation": {
+    "headerTitle": "Information"
+  },
+  "tokenWattTransactions": {
+    "headerTitle": "Recent transactions",
+
+    "sent": "Sent by",
+    "received": "Received",
+
+    "date": "Date",
+    "recipient": "Recipient",
+    "sender": "Sender",
+    "networkFee": "Network fee",
+    "showFromBlockChain": "View in Block Explorer"
+  },
+  "accountDocuments": {
+    "headerTitle": "Documents",
+    "termsOfUseTitle": "Terms of Use",
+    "termsOfUseCaption": "File in PDF",
+    "privacyPolicyTitle": "Privacy and cookie policies",
+    "privacyPolicyCaption": "File in PDF",
+    "distributorAgreementTitle": "Distributor agreement",
+    "distributorAgreementCaption": "File in PDF"
+  },
+  "accountMyTeam": {
+    "headerTitle": "My team",
+    "placeholderSearch": "Search by personal information",
+    "commandTreeComingSoon": "Team tree will appear shortly",
+    "controlsTabs": {
+      "wood": "Tree",
+      "referrals": "Referrals"
+    },
+    "myReferrals": {
+      "countReferrals": "Amount of referrals",
+      "referralUserCountLabel": "Referral"
+    },
+    "referralTree": {
+      "leftCommand": "Left command",
+      "rightCommand": "Right command",
+      "participants": "Participants",
+      "points": "Points",
+      "lowerLeftParticipant": "Lower left participant",
+      "lowerRightParticipant": "Lower right participant",
+      "messageLoading": "Loading..."
+    },
+    "userCard": {
+      "personallyInvited": "Personally invited",
+      "packageActivated": "Package activated",
+      "curator": "Curator",
+      "registrationDate": "Registration date",
+      "totalCountParticipants": "My team"
+    }
+  },
+  "accountWalkFame": {
+    "headerTitle": "Alley of glory",
+    "allQualifications": {
+      "title": "Amount of qualifications the user achieved for all the time"
+    }
+  },
+  "accountQualifications": {
+    "headerTitle": "Energy",
+    "buttonWalkFame": "Alley of glory",
+    "currentQualifications": {
+      "title": "Current energy",
+      "messageEndCurrentQualification": "Till the end of the month left",
+      "monthlyVolumeSmallDirection": "Volume per month in a small direction",
+      "leadershipBonusLevel": "Level of leadership bonus",
+      "currentQualification": "Maximum energy",
+      "nextCurrentQualification": "Your energy next month"
+    }
+  },
+  "accountStatistics": {
+    "headerTitle": "Statistics",
+
+    "tabs": {
+      "checks": "ТОР-20 checks",
+      "qualification": "ТОП-20 energies"
+    },
+    "sort": {
+      "allTime": "For all the time",
+      "month": "Month",
+      "year": "Year"
+    }
+  },
+  "accountProfileMeEdit": {
+    "headerTitle": "My profile",
+    "changePassword": "Change password",
+    "successChangePassword": "Password has been successfully changed",
+    "wisewinPatronNotFount": "Sponsor is not found",
+    "profileInformation": {
+      "userNameEmpty": "Name",
+      "userLastNameEmpty": "Last name",
+      "changeAvatar": "Change photo",
+      "notQualification": "No energy"
+    },
+    "form": {
+      "informationMessageDanger": "Important!",
+      "informationMessage": "Please enter your relevant and correct data, it will help you make your personal account statements and documents automatically.",
+      "emailLabel": "Email",
+      "emailCaption": "(not necessary)",
+      "emailPlaceholder": "trader@gmail.com",
+      "curatorLabel": "Sponsor",
+      "curatorCaption": "(not necessary)",
+      "curatorMessage": "If you don’t know the referral code of your sponsor, skip this field ",
+      "curatorPlaceholder": "Enter referral code",
+      "firstNameLabel": "Name",
+      "firstNameCaption": "(real name)",
+      "firstNamePlaceholder": "Enter your name",
+      "lastNameLabel": "Last name",
+      "lastNameCaption": "(real last name)",
+      "lastNamePlaceholder": "Enter your last name",
+      "middleNameLabel": "Patronymic",
+      "middleNameCaption": "(real patronymic)",
+      "middleNamePlaceholder": "Enter your patronymic",
+      "dateBirthLabel": "Date of birth",
+      "dateBirthPlaceholder": "00.00.00",
+      "countryLabel": "Country",
+      "countryPlaceholder": "Enter your country",
+      "cityLabel": "City",
+      "cityPlaceholder": "Enter your city",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "Enter your phone number",
+      "telegramUsernameLabel": "Telegram Username",
+      "telegramUsernameCaption": "(Username без @)",
+      "telegramUsernamePlaceholder": "Enter your username",
+      "buttonSave": "Save changes"
+    },
+    "notification": {
+      "successUpdateForm": "User profile has been successfully updated"
+    },
+    "errorsChangPassword": {
+      "not-found": "Wrong password"
+    },
+    "errorsChangeProfile": {
+      "inCorrectField": "Field error: {{field}} - incorrect value"
+    }
+  },
+  "accountProfileMe": {
+    "headerTitle": "My profile",
+    "email": "Email",
+    "mentor": "Sponsor",
+    "qualification": {
+      "not": "No energy"
+    },
+    "additionalInformation": {
+      "dateBirth": "Date of birth",
+      "country": "Country",
+      "city": "City",
+      "phone": "Phone number",
+      "telegram": "Telegram Username"
+    },
+    "branchForRegistration": {
+      "title": "Leg for registration",
+      "left": "Left",
+      "right": "Right",
+      "mentorId": "My referral code",
+      "successCopyMentorId": "Sponsor ID has been successfully copied",
+      "successCopyWattMeLink": "Link has been successfully copied",
+      "successChangeDirect": "Registration leg has been successfully changed",
+      "messageQrCodeMentor": "Your referral QR-code"
+    },
+    "passwordSection": {
+      "label": "Account password"
+    }
+  },
+  "accountBackOffice": {
+    "headerTitle": "Account",
+    "messageNotCurator": "A sponsor will be assigned for you shortly and you will get new opportunities",
+    "tokenWatt": "WATT token",
+    "myTeam": "My team",
+    "tariff": {
+      "title": "Energy",
+      "currentTariff": "Current energy:",
+      "messageStartBuyTariff": "Energy replenishment will be open in"
+    },
+    "ecosystemParticipants": {
+      "title": "Ecosystem members",
+      "statistics": "Statistics",
+      "qualifications": "Energy"
+    },
+    "walletAddress": {
+      "label": "Wallet address",
+      "addressPlaceholder": "Enter your wallet address",
+      "errorValidAddress": "Wrong format of wallet address",
+      "successSetupAddress": "Wallet address has been successfully set up",
+      "walletAlreadyExist": "Wallet is already set up. Please contact our technical support.",
+      "successCopyWalletAddress": "Wallet address has been successfully copied"
+    },
+    "popUpUserConflict": {
+      "label": "User with this E-mail already exists",
+      "buttonLogin": "Log in",
+      "buttonReset": "Restore the password"
+    }
+  },
+  "accountConfirmRegistration": {
+    "title": "Confirmation",
+    "message": "A letter with a temporary password has been sent to your email address. Enter the password below and click on Confirm",
+    "verificationCodePlaceholder": "Enter your temporary password",
+    "errors": {
+      "step1": {
+        "invalid-data": "Wrong password"
+      },
+      "step2": {}
+    },
+    "successPopUp": {
+      "title": "Welcome",
+      "message": "Your email address has been confirmed"
+    }
+  },
+  "accountConfirmForgotPassword": {
+    "title": "Confirmation",
+    "message": " Enter your temporary password and click on Confirm",
+    "verificationCodePlaceholder": " Enter your temporary password",
+    "passwordPlaceholder": "Enter your password",
+    "passwordRepeatPlaceholder": "Repeat your password",
+    "errors": {
+      "invalid-data": "Wrong confirmation code",
+      "passwordsMustMatch": "Passwords are different"
+    },
+    "popUpSuccess": {
+      "title": "Congratulations",
+      "message": "New password has been successfully created"
+    }
+  },
+  "accountRegistration": {
+    "title": "Registration",
+    "message": "Enter your email address",
+    "emailPlaceholder": "Enter E-mail",
+    "messageConfirm": "Please, confirm that you have read and agree with the following documents ",
+    "privacyPolicy": "Privacy Policies",
+    "termsOfUse": "Terms and Conditions",
+    "errors": {
+      "confict": "User is already registered"
+    }
+  },
+  "accountForgotPassword": {
+    "title": "Forgot your password",
+    "message": "Please enter your email address to get your temporary password",
+    "emailPlaceholder": "Enter E-mail",
+    "error": {}
+  },
+  "accountLogin": {
+    "title": "Log in",
+    "message": "Enter your email address and password to log in",
+    "emailPlaceholder": "Enter E-mail",
+    "passwordPlaceholder": "Enter your password",
+    "forgotPassword": "Forgot your password",
+    "registration": "Registration",
+    "errors": {
+      "invalid-data": "Wrong login / password",
+      "not-found": "User has not been found"
+    }
+  },
+  "settingsPushNotification": {
+    "headerTitle": "Push-notifications",
+    "allowPushNotifications": "Allow Push-notifications",
+    "sentAndReceived": "Sent and received",
+    "message": "You will be informed about sent and received transactions"
+  },
+  "settingsSecurity": {
+    "headerTitle": "Security",
+    "blockingMethod": {
+      "title": "Blocking method",
+      "accessCode": "Access code",
+      "accessCodeBiometrics": "Access code / biometrics"
+    },
+    "touchID": {
+      "title": "Touch ID",
+      "toEnter": "To log in",
+      "forSignature": "To sign in"
+    },
+    "changePassword": "Change your password"
+  },
+  "errors":{
+    "internal-error":"Server error",
+    "noSeedPhrase": "Your wallet does not have a SEED phrase, sending a transaction is not possible"
+  },
+  "filterPage":{"headerTitle":"Filter"},
+
+  "tradingItem": {
+    "status": {
+      "NEW": "Active",
+      "PARTIALLY_FILLED": "Partially done",
+      "FILLED": "Done",
+      "CANCELED": "Cancelled",
+      "PENDING_CANCEL": "Is not using",
+      "REJECTED": "Not accepted",
+      "EXPIRED": "Cancelled by the service"
+    }
+  },
+  "tradingSelectPair": {
+    "headerTitle": "Choose pair",
+    "searchPlaceholder": "Enter pair"
+  },
+  "tradingSmartTradeCreate": {
+    "headerTitle": "Smart Trade",
+    "typeTabs": {
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "controls": {
+      "tabs": {
+        "tabLimit": "Limit",
+        "tabMarket": "Market",
+        "tabConditional": "Conditional"
+      },
+      "titlePrice": "Price",
+      "titleUnits": "Units"
+    },
+    "total": {
+      "totalTitle": "Total"
+    },
+    "createSuccess": {
+      "SUCCESS_CREATE_ORDER_LIMIT": "Order has been successfully created"
+    },
+    "createErrors": {
+      "MIN_NOTIONAL_MIN": "Minimum transaction amount -",
+      "LOT_SIZE_MIN": "Minimum value \"Unit\" -",
+      "LOT_SIZE_MAX": "Maximum value \"Unit\" -",
+      "PRICE_FILTER_MIN": "Minimum price -",
+      "PRICE_FILTER_MAX": "Maximum price -",
+      "-2010": "The account has insufficient funds to complete the requested action.",
+      "-2015": "Wrong API-key, IP or action permits.",
+      "-1013": "Wrong amount",
+      "internal-error": "Server error"
+    },
+    "installTP": "Install TP",
+    "installSL": "Install SL",
+    "makeDeal": "Make a deal",
+    "makeDealLoad": "Updating information"
+  },
+  "tradingTradeInfo": {
+    "headerTitle": "Smart Trade",
+    "tradeControl": {
+      "refresh": "Update",
+      "average": "Average",
+      "decrease": "Decrease",
+      "edit": "Edit",
+      "cancel": "Undo"
+    },
+    "goals": {
+      "waitingForGoals": "Waiting for goals"
+    },
+    "informationDial": {
+      "units": "Units",
+      "purchase": "Buy",
+      "createdBy": "Created",
+      "total": "Total",
+      "closeByMarket": "Close by market"
+    },
+    "popUpMessage": {
+      "inputPlaceholder": "Input"
+    },
+    "cancelOrder": {
+      "successMessage": "Transaction cancelled"
+    }
+  },
+  "tradingDashboard": {
+    "headerTitle": "Trading",
+    "tabs": {
+      "smartTrade": "Smart Trade",
+      "bots": "Bots"
+    },
+    "sorting": {
+      "date": "Date"
+    },
+    "tabSmartTrade": {
+      "title": "Transactions"
+    },
+    "filter": {
+      "status": {
+        "label": "Status",
+        "all": "All",
+        "active": "Active",
+        "completed": "Completed"
+      },
+      "account": {
+        "label": "Account",
+        "all": "All"
+      }
+    },
+    "bots": {
+      "botsWillWorkSoon": "Bots will start working shortly"
+    }
+  },
+  "binanceConnection": {
+    "headerTitle": "Binance",
+    "buttonConnect": "Connect",
+    "errorWalletScan": "Fail to recognize QR-code",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "My Binance account",
+      "nameError": "Name couldn’t be empty",
+      "apiKeyLabel": "API key",
+      "apiKeyPlaceholder": "API key",
+      "apiKeyError": "API key couldn’t be empty",
+      "secretLabel": "Secret",
+      "secretPlaceholder": "Secret",
+      "secretError": "Secret couldn’t me empty"
+    },
+    "errorConnection": {
+      "internal-error": "Server error"
+    }
+  },
+
+  "modalWelcome": {
+    "title": "Welcome",
+    "message": "Now you can connect your exchange account using API key"
+  },
+
+  "popUpForgotPassword": {
+    "step1": {
+      "title": "Forgot your password",
+      "message": "Please enter your email address to get your temporary password",
+      "emailPlaceholder": "Enter E-mail"
+    },
+    "step2": {
+      "title": "Confirmation",
+      "message": "Enter received confirmation code and click on Confirm",
+      "codePlaceholder": "Enter confirmation code",
+      "buttonRepeatVerificationCode": "Send code again"
+    },
+    "successNotification": {
+      "title": "Congratulations",
+      "message": "New password has been successfully created"
+    }
+  },
+  "popUpChangePassword": {
+    "title": "Change your password",
+    "titleNewPassword": "Set up password",
+    "buttonLabel": "Confirm",
+    "form": {
+      "oldPasswordLabel": "Previous password",
+      "oldPasswordPlaceholder": "Enter your previous password",
+      "oldPasswordError": "",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "set up new password",
+      "newPasswordError": "",
+      "repeatNewPasswordLabel": "Repeat your new password",
+      "repeatNewPasswordPlaceholder": " Repeat your new password",
+      "repeatNewPasswordError": ""
+    }
+  },
+  "popUpRegistration": {
+    "stepRegistration": {
+      "title": "Registration",
+      "message": "To use all functions please register in WATT ecosystem",
+      "emailPlaceholder": "Enter E-mail",
+      "iAgree": "I agree",
+      "termsOfWatt": "WATT conditions",
+      "errors": {
+        "confict": "User with this Email address has already been registered."
+      }
+    },
+    "stepConfirmation": {
+      "title": "Confirmation",
+      "message": " A letter with a confirmation code has been sent to your email address. Enter the confirmation code below and click on Confirm ",
+      "verificationCodePlaceholder": "Enter confirmation code",
+      "buttonRepeatVerificationCode": "Send code again",
+      "successRepeatSendVerification": "Confirmation code has been sent",
+      "errors": {
+        "confict": " User with this Email address has already been registered.",
+        "invalid-data": "Wrong confirmation code"
+      }
+    },
+    "successRegistration": {
+      "title": "Welcome",
+      "message": "Your email address has been successfully confirmed"
+    },
+    "buttonConnect": "Connect",
+    "buttonConfirm": "Confirm"
+  },
+
+  "dashboardHomeSettings": {
+    "caption": "Select what you want to see in Dashboard. If you want to change places of the units, click on the right button and drag.",
+    "captionFooter": "If you don’t like the result of the changes, you can return to the original display settings.",
+    "buttonDefault": " Return to default ",
+    "buttonSave": "Save changes",
+    "sections": {
+      "wallet": "Wallet",
+      "stockExchange": "Exchange",
+      "market": "Market",
+      "longShort": "Long Short",
+      "trades": "Trades",
+      "bots": "Bots"
+    },
+    "success": {
+      "successSaveConfiguration": "New configuration has been successfully changed"
+    }
+  },
+  "dashboardHome": {
+    "headerTitle": "Dashboard",
+    "walletAccount": {
+      "title": "Wallet account",
+      "buttonConnect": "Connect",
+      "walletLabel": "Wallet"
+    },
+    "exchangeAccount": {
+      "title": "Exchange",
+      "caption": "Binance",
+      "titleNotConnection": "Exchange account"
+    },
+    "marketInformation": {
+      "marketCapitalization": "Market capitalization",
+      "volumeIn24Hours": "Volume in 24 hours",
+      "dominanceBTC": "BTC domination"
+    },
+    "longShortBlock": {
+      "longTitle": "Long",
+      "shortTitle": "Short"
+    },
+    "infoWalletCreate": {
+      "title": "Wallet",
+      "message": " In order to enter this section, you need to create or enter a SEED phrase for your wallet ",
+      "buttonCancel": "Undo",
+      "buttonConfirm": "Ok"
+    },
+    "buttonSettingsDashboard": "Change Dashboard"
+  },
+
+  "modalNetworks": {
+    "turnOnCoin": "Include coin"
+  },
+  "walletBuyCrypto": {
+    "headerTitle": "Buy",
+    "currencyNotFound": "Oops...\nThis coin is not listed in MoonPay",
+    "errorMinBuyAmount": "Minimum amount to buy —",
+    "errorMaxBuyAmount": "Maximum amount to buy —",
+    "dialInformation": {
+      "amount": "Amount to receive including commission:",
+      "commission": "Commission:"
+    }
+  },
+  "popUpInformation": {
+    "close": "Close",
+    "confirm": "Confirm"
+  },
+
+  "common": {
+    "yearAbbreviated": "yy.",
+    "copy": "Copy",
+    "close": "Close",
+    "delete": "Delete",
+    "disable": "Disconnect",
+    "append": "Add",
+    "proceed": "Continue",
+    "further": "Next",
+    "cancel": "Undo",
+    "route": "Go",
+    "confirm": "Confirm",
+    "save": "Save",
+    "select": "Select",
+    "about": "More information",
+    "buy": "Buy",
+    "topUp": "Deposit",
+    "exchange": "Exchange",
+    "receive": "Receive",
+    "soon": "Soon",
+    "perDay": "per day",
+    "documents": "Documents",
+    "price": "Price",
+    "look": "Look",
+    "ok": "Ok",
+    "address": "Address",
+    "name": "Name",
+    "symbol": "Symbol",
+    "decimals": "Decimals",
+    "peopleShort": "per.",
+    "presentation": "Presentation",
+    "days": {
+      "day": "day",
+      "ofDay": "of day",
+      "days": "days"
+    },
+    "hourse": {
+      "hour": "hour",
+      "hours": "hour",
+      "hoursLong": "hours"
+    },
+    "minutes": {
+      "minute": "minutes",
+      "minutes": "minutes",
+      "minutesLong": "minutes"
+    }
+  },
+  "networks": {
+    "headerTitle": "Network"
+  },
+
+  "walletSecretPhrase": {
+    "header": {
+      "titleStep1": "Secret phrase"
+    },
+    "step1": {
+      "infoPhrase1": "Restoring phrase is a master-key to your funds. Don’t pass it to anybody else.",
+      "infoPhrase2": "Watt Wallet never asks you to share your restoring phrase.",
+      "infoPhrase3": "If you lose your restoring phrase, even Watt Wallet can’t return your funds.",
+      "labelConfirm": "I understand the risks"
+    }
+  },
+  "walletCreateCustomCoin": {
+    "headerTitle": "Add",
+    "network": "Network",
+    "chooseNetwork": "Select",
+    "addressContract": "Contract address",
+    "whatYourToken": "What is my token?",
+    "successCreateToken": "Token has been successfully added to your wallet",
+    "errorCreateToken": "Error occurred while token has been created. Please try again later.",
+    "error": {
+      "network": "You need to select a network",
+      "nameContract": "Token name is required",
+      "symbolContract": "Token symbol is required",
+      "addressContract": "Contract address is required",
+      "decimalsContract": "Token Decimals are required"
+    }
+  },
+  "walletCreate": {
+    "step1": {
+      "title": "Make a backup copy of your wallet now!",
+      "message": " If you continue you will see 12 words that allow you to restore your wallet.",
+
+      "checkbox": " I understand that if I lose the secret phrase, I will lose an access to my wallet."
+    },
+    "step2": {
+      "title": "Your secret phrase",
+      "message": "Save these words in the safe place in the order you see them.",
+      "warn": "Don’t pass your restoring phrase to anybody else. Store it properly!",
+      "buttonCopy": "Copy",
+      "notificationCopy": "Your secret phrase has been successfully copied"
+    },
+    "step3": {
+      "title": "Verify your restoring phrase",
+      "message": "Click on the words to place them next to each other in the right order.",
+      "errorMessage": "Wrong order. Please try it again!"
+    },
+    "step4": {
+      "errorMessage": "Enter wallet name"
+    },
+    "notifications": {
+      "successCreate": {
+        "message": "Wallet has been successfully created"
+      }
+    },
+    "nextStep": "Continue"
+  },
+  "headerMini": {
+    "cancel": "Undo"
+  },
+  "walletChoiceAdding": {
+    "cancel": "Undo",
+    "buttonCreate": "Create new wallet",
+    "buttonImport": "I already have a wallet",
+    "tabs": {
+      "tab1": {
+        "label": "Decentralized and safe",
+        "message": "Private keys are always located in your device and never leave it."
+      },
+      "tab2": {
+        "label": "All in one place",
+        "message": "Convenient access to all crypto currencies and NFT collections in one app"
+      },
+      "tab3": {
+        "label": "Manage all crypto wallets",
+        "message": "Create and manage your crypto wallets from one device"
+      }
+    },
+    "step1": {
+      "title": "Make a backup copy of your wallet now!",
+      "message": " If you continue you will see 12 words that allow you to restore your wallet ",
+      "checkbox": " I understand that if I lose the secret phrase, I will lose an access to my wallet.",
+      "buttonNext": "Continue"
+    },
+    "step2": {
+      "title": "Your secret phrase",
+      "message": " Save these words in the safe place in the order you see them.",
+      "buttonCopy": "Copy",
+      "warningMessage": " Don’t pass your restoring phrase to anybody else. Store it properly!",
+      "buttonNext": "Continue"
+    },
+    "step3": {
+      "title": " Verify your restoring phrase ",
+      "message": " Click on the words to place them next to each other in the right order."
+    },
+    "notificationCopy": {
+      "message": "Your secret phrase has been added to the clipboard"
+    }
+  },
+  "modalCamera": {
+    "header": "Scan QR-code",
+    "errorScan": "Failed to recognize QR-code"
+  },
+  "settingsVersionApp": {
+    "headerTitle": "Version",
+    "version": "Version",
+    "whatNew": "What’s new"
+  },
+  "settingsHome": {
+    "header": "Settings",
+    "user": {
+      "treeLeft": "Left",
+      "treeRight": "Right",
+      "tokenWatt": "WATT token"
+    },
+    "auth": {
+      "title": "Log in your account",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Password",
+      "buttonEnter": "Log in",
+      "forgotPassword": "Forgot your password?",
+      "registration": "Registration",
+      "errors": {
+        "invalid-data": "Wrong login / password"
+      }
+    },
+    "menu": {
+      "wallet": "Wallet",
+      "languageSelection": "Select a language",
+      "currency": "Currency",
+      "walletConnect": "Wallet Connect",
+      "myExchanges": "My exchanges",
+      "security": "Security",
+      "theme": "Theme",
+      "pushNotification": "Push - notifications",
+      "technicalSupport": "Technical support",
+      "privacyPolicy": "Privacy Policies",
+      "termsOfUse": "Terms of Use",
+      "versionApp": "Version"
+    },
+    "popUpFiatCurrency": {
+      "title": "Currency"
+    },
+    "popUpLanguage": {
+      "title": "Select a language"
+    },
+    "technicalSupport": {
+      "title": "Technical support",
+      "message": "If you have any questions, suggestions or technical tasks, message us in Telegram bot",
+      "successButton": "Telegram"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policies",
+      "message": "Go by the link below to read the Privacy Policies",
+      "successButton": "Go"
+    },
+    "termsOfUse": {
+      "title": "Terms of Use",
+      "message": "Go by the link below to read the Terms of Use",
+      "successButton": "Go"
+    }
+  },
+  "browserApp": {
+    "notifications": {
+      "addressCopySuccess": "Address has been successfully copied"
+    },
+    "sessionRequest": {
+      "title": "Confirmation",
+      "message": "wants to connect to your wallet",
+      "information1": " View wallet balance and activity ",
+      "information2": "Request for transaction approval"
+    }
+  },
+  "browserHome": {
+    "searchPlaceholder": "Find DApp or enter a link",
+    "categories": {
+      "allCategory": "All categories",
+      "favorites": "Favorites"
+    },
+    "popUpWarningDapp": {
+      "message": "You are about to redirect to a third party Dapp. When making a transfer, make sure you are aware of the financial risks. WATT Wallet is not responsible for any damages caused by using this DApp."
+    }
+  },
+  "walletCoinReceive": {
+    "header": "Receive",
+    "message": "Send only {{coin}} to this address.\n Sending of any other coins may result in their lost.",
+    "buttonCopy": "Copy",
+    "buttonAmount": "Amount",
+    "notificationSuccessCopy": "Address has been successfully copied",
+    "notificationSuccessShare": "Address has been successfully sent",
+    "dialogAmount": {
+      "title": "Enter the amount",
+      "placeholder": "Input",
+      "cancel": "Undo",
+      "accept": "Confirm"
+    }
+  },
+  "walletCoinSendConfirm": {
+    "header": "Transfer",
+    "assets": "Asset",
+    "from": "From",
+    "to": "To",
+    "commission": "Commission",
+    "maxTotal": "Max. total",
+    "buttonConfirm": "Confirm",
+    "buttonUpdate": "Update",
+    "errorSignTransaction": "Error has occurred while signing transaction, please, try again later",
+    "errorSendTransaction": " Error has occurred while sending transaction, please, try again later ",
+    "errorDealOutDate": "Commission may be changed.\nUpdate information!",
+    "successSendTransaction": "Transaction has been successfully completed",
+    "commissionPopup": {
+      "title": "Commission",
+      "message": "System {{networkName}} charges a commission per transaction which depends on the usage of blockchain.\n\n0% from the commission is paid to WATT ME."
+    }
+  },
+  "walletCoinSend": {
+    "header": "Send",
+    "buttonSend": "Send",
+    "buttonPast": "Paste",
+    "buttonMaxAmount": "Max.",
+    "currentBalance": "Current balance",
+    "form": {
+      "addressPlaceholder": "Percipient address",
+      "amountPlaceholder": "amount"
+    },
+    "errors": {
+      "insufficient-balance": "Insufficient balance",
+      "invalid-data": "Invalid data",
+      "internal-error": "Server error",
+      "not-found": "Server error",
+      "amountExceedsBalance": "The amount entered exceeds the balance"
+    },
+    "success": {
+      "successBuyWattToken": "Token has been successfully received"
+    },
+    "popUpSendWatt": {
+      "title": "Commission",
+      "message": "You will receive {{amount}} WATT"
+    }
+  },
+  "walletCoin": {
+    "buttonBuy": "Buy",
+    "buttonInformation": "Information",
+    "buttonSend": "Send",
+    "buttonReceive": "Receive",
+    "history": {
+      "translation": "Transaction",
+      "receipt": "Receipt",
+      "toWhom": "to whom",
+      "fromWhom": "from whom"
+    }
+  },
+  "imageCropPicker": {
+    "title": "Image editing"
+  },
+  "walletControl": {
+    "header": "Manage",
+    "backupOptions": {
+      "title": " Backup options ",
+      "caption": "If you lose an access for this device, \nyour funds will be lost, \nif you don’t make a backup copy!",
+      "labelSecretPhrase": "Show my secret phrase"
+    },
+    "successWalletSaveTitle": "Successfully",
+    "successWalletSaveMessage": "Wallet has been successfully changed"
+  },
+  "walletChoosingWallet": {
+    "header": "Main wallet",
+    "multiSectionTitle": "Multi-coin wallet",
+    "singleSectionTitle": "Wallets",
+    "singleLabelWallet": "Wallet",
+    "multiCaptionWallet": " Multi-coin wallet ",
+    "deleteWalletConfirm": {
+      "title": "Are you sure you want to delete this wallet?",
+      "message": "Please make sure that you made a backup copy of your SEED phrase."
+    },
+    "deleteWalletSuccess": "Wallet has been successfully deleted"
+  },
+  "walletCoinManagement": {
+    "header": "Coins management",
+    "searchPlaceholder": "Enter token name or contract address"
+  },
+  "importWalletForm": {
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter wallet name",
+      "imageLabel": "Change photo",
+      "phrasePlaceholder": "Secret phrase",
+      "addressPlaceholder": "Wallet address",
+      "privateKeyPlaceholder": "Private key",
+      "phraseCaption": "Usually 12 (sometimes 24) words are separated by one space",
+      "addressCaption": "You can view any public address without disclosure of your private key",
+      "privateKeyCaption": "Usually 64 alphanumeric characters "
+    },
+    "tabs": {
+      "phrase": "Phrase",
+      "address": "Address",
+      "privateKey": "Private key"
+    },
+    "errors": {
+      "errorForm": "Complete \"Name\" and \"Phrase\"/\"Address\""
+    },
+    "dialogErrorImportWallet": {
+      "title": "Phrase error",
+      "message": "This phrase is not supported. Would you like to continue?",
+      "button": "Scip"
+    },
+    "buttonPast": "Paste",
+    "provisionalAddress": "Imported address",
+    "buttonImport": "Import",
+    "successWalletImport": "Wallet has been successfully added"
+  },
+  "importWalletCoin": {
+    "headerTitle": "Import",
+    "labelMultiVWallet": "Multi-coin wallet"
+  }
+}

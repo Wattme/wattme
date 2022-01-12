@@ -1,0 +1,1 @@
+export type Blockchain = 'eth' | 'bsc' | 'polygon';

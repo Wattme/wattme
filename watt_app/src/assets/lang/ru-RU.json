@@ -1,0 +1,1461 @@
+{
+  "welcome": {
+    "header": {
+      "title": "Добро\nпожаловать!",
+      "description": "Это\nбесплатная система\nдля работы с криптовалютой."
+    },
+    "body": {
+      "title": "Настройки кошелька",
+      "message": "Импортируйте существующий кошелек\nили создайте новый."
+    },
+    "footer": {
+      "importWallet": "Импортировать кошелек",
+      "createWallet": "Создать новый"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "userTitle": "Добро пожаловать",
+      "balanceTitle": "Баланс",
+      "profitTitle": "Изменения за сутки",
+      "addWallet": "Добавить"
+    },
+    "tabs": {
+      "cryptoAssets": "Криптоактивы",
+      "nftCollections": "NFT коллекции"
+    },
+    "typesAddWallet": {
+      "title": "Выбор способа добавления",
+      "create": "Создать",
+      "import": "Импортировать",
+      "customToken": "Create token"
+    },
+    "nftDevelop": "NFT коллекции будут доступны в ближайшее время"
+  },
+  "importWallet": {
+    "header": {
+      "title": "Импортировать"
+    },
+    "dialogSelectedCurrency": {
+      "title": "Выбор сети",
+      "message": "Выберите сеть для импорта кошелька",
+      "select": "Пожалуйста, выберите монету"
+    },
+    "dialogErrorImportWallet": {
+      "title": "Ошибка фразы",
+      "message": "Эта фраза не поддерживается, вы хотите продолжить на свой страх и риск?",
+      "button": "Пропустить"
+    },
+    "typesImport": {
+      "phrase": "Фраза",
+      "phrasePlaceholder": "Ввести секретную фразу",
+      "privateKey": "Приватный ключ",
+      "privateKeyPlaceholder": "Приватный ключ",
+      "address": "Адрес",
+      "addressPlaceholder": "Адрес",
+
+      "pasteButton": "Вставить"
+    },
+
+    "importButton": "Импортировать",
+    "headerTitle": "Правовая информация",
+    "message": "Пожалуйста, посмотрите Условия обслуживания и Политики конфиденциальности WATT ME.",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfUse": "Условия использования",
+    "checkboxLabel": "Я понимаю, что если я потеряю секретную фразу, я потеряю доступ к своему кошельку.",
+    "next": "Продолжить"
+  },
+  "createWallet": {
+    "header": {
+      "title": "Создать кошелек"
+    },
+    "stepZero": {
+      "description": "Пожалуйста, выберите монету"
+    },
+    "stepOne": {
+      "description": "На следующем шаге вы увидите 12 слов, которые позволят вам восстановать кошелек.",
+      "agreement": "Я понимаю, что если я потеряю секретную фразу, я потеряю доступ к своему кошельку.",
+      "buttonNext": "Продолжить"
+    },
+    "stepTwo": {
+      "title": "Ваша секретная фраза",
+      "description": "Запишите или скопируйте эти слова в правильном порядке и сохраните их в безопасном месте.",
+      "warn": "Никогда не передавайте фразу восстановления кому-либо, храните ее надежно.",
+      "buttonCopy": "Копировать"
+    },
+    "stepThee": {
+      "description": "Нажмите на слова, чтобы переместить их в правильном порядке.",
+      "buttonNext": "Подтвердить фразу"
+    },
+    "stage1": {
+      "header": "Секретная фраза",
+      "phrase1": "Фраза восстановления является мастер-ключом к вашим средствам. Никогда не делитесь им ни с кем другим.",
+      "phrase2": "Watt Wallet никогда не попросит вас поделиться своей фразой для восстановления.",
+      "phrase3": "Если вы потеряете фразу для восстановления, даже Watt Wallet не сможет вернуть ваши средства."
+    },
+
+    "description": "Мы создадим кошелек\nв три шага."
+  },
+  "walletInfo": {
+    "tabs": {
+      "history": "История",
+      "tokens": "Токены"
+    },
+    "history": {
+      "received": "Получили",
+      "cashOut": "Отправили",
+
+      "from": "от",
+      "to": "до"
+    },
+    "notification": {
+      "copyAddress": "Адрес успешно скопирован в буфер обмена",
+      "errorAccountForBuyCurrency": "Перед покупкой валюты необходимо зарегистрироваться или авторизоваться"
+    },
+    "dialogAddToken": {
+      "title": "Добавление токена",
+
+      "contractAddress": "Адрес контракта токена",
+      "contractAddressPlaceholder": "",
+      "tokenSymbol": "Символ токена",
+      "tokenSymbolPlaceholder": "",
+      "tokenName": "Наименование токена",
+      "tokenNamePlaceholder": "",
+      "decimalPlaces": "Число десятичных знаков токена",
+      "decimalPlacesPlaceholder": "",
+
+      "buttonAdd": "Добавить",
+
+      "errorAddressEmpty": "Заполните адрес контракта",
+      "errorAddressNotValid": "Введенный адрес не поддерживается",
+      "errorCodeEmpty": "Заполните \"Символ токена\"",
+      "errorNameEmpty": "Заполните \"Наименование токена\""
+    },
+    "removeWallet": {
+      "title": "Подтверждение",
+      "message": "Вы действительно хотите удалить ваш кошелек?"
+    },
+
+    "totalBalance": "Суммарный баланс",
+    "receive": "Получить",
+    "buy": "Купить",
+    "copy": "Копировать",
+    "cashOut": "Отправить",
+    "addCustomToken": "Добавить токен",
+    "successTokenAdd": "Токен успешно добавлен",
+    "buttonPastContract": "Вставить"
+  },
+  "transferSend": {
+    "header": {
+      "title": "Отправить"
+    },
+    "form": {
+      "commission": "Максимальная комиссия сети:",
+      "maxAmount": "Макс. сумма",
+
+      "labelAmount": "Сумма отправки",
+      "placeholderAmount": "Введите адрес",
+      "labelRecipientAddress": "Адрес получателя"
+    },
+    "errorSending": {
+      "amountEmpty": "Необходимо ввести сумму отправки",
+      "recipientAddressEmpty": "Необходимо ввести адрес получателя",
+      "bigAmount": "Введенная сумма превышает баланс - комиссия"
+    },
+    "errorFreshTx": {
+      "low-balance": "Недостаточно средств для совершения перевода",
+
+      "commonError": "Возникла ошибка при отправке"
+    },
+    "dialogEnterPassword": {
+      "title": "Подтверждение перевода",
+      "send": "Отправить"
+    },
+    "buttonSend": "Отправить"
+  },
+  "transferSendDone": {
+    "header": {
+      "title": "Отправлено"
+    },
+
+    "successMessage": "Перевод успешно совершен",
+    "buttonRouteBlockChain": "Перейти на "
+  },
+  "transferReceive": {
+    "header": {
+      "title": "Получить"
+    },
+
+    "walletTitle": "Номер кошелька",
+
+    "buttonCopy": "Копировать",
+    "buttonShare": "Поделиться"
+  },
+  "chart": {
+    "header": {
+      "title": "Текущая цена",
+      "subtitle": "График"
+    },
+    "marketChange": {
+      "marketCapitalization": "Рыночная капитализация",
+      "volumeIn24Hours": "Объем за 24 часа"
+    },
+    "tabs": {
+      "myList": "МОЙ ЛИСТ",
+      "crypto": "CRYPTO",
+      "defi": "DEFI",
+      "bsc": "BSC"
+    },
+    "searchPlaceholder": "Поиск"
+  },
+  "setPassCode": {
+    "titlePassCode": "Введите новый\nсекретный ключ",
+    "titlePassCodeRepeat": "Пожалуйста, введите ваш\nсекретный ключ ещё раз",
+
+    "dialogFingerprint": {
+      "title": "Вход через отпечаток или Face ID",
+      "message": "Разрешить вход с использованием отпечатка пальца или Face ID (при наличии)?",
+
+      "cancel": "Нет",
+      "approve": "Да"
+    },
+    "fingerprintScanner": {
+      "title": "Требуется проверка\nподлинности",
+      "cancel": "Отмена"
+    }
+  },
+  "walletConnectHome": {
+    "placeholderSearch": "Найдите DApp или введите ссылку"
+  },
+  "walletConnectCamera": {
+    "androidCameraPermissionOptions": {
+      "title": "Заголовок",
+      "message": "Сообщение",
+      "buttonPositive": "Разрешить",
+      "buttonNegative": "Отказаться"
+    }
+  },
+  "modalApplicationLock": {
+    "title": "Введите секретный код.",
+    "fingerprintScannerTitle": "Требуется проверка\nподлености",
+    "fingerprintScannerCancelButton": "ПИН-КОД",
+
+    "entry": "Вход",
+    "enterPassword": "Введите пароль",
+    "forgotCode": "Забыли PIN код?",
+    "exit": "Выйти"
+  },
+  "wallets": {
+    "headerTitle": "Кошельки",
+    "mainWalletTitle": "Основной кошелек",
+    "additionalWalletTitle": "Дополнительные кошельки",
+
+    "createWallet": {
+      "title": "Создание кошелька",
+      "nameWallet": "Название кошелька",
+      "buttonCreate": "Создать"
+    }
+  },
+  "wallet": {
+    "headerTitle": "Кошелек"
+  },
+  "setLanguage": {
+    "headerTitle": "Выбор языка"
+  },
+  "settings": {
+    "header": {
+      "title": "Настройки"
+    },
+    "menu": {
+      "account": {
+        "account": "Аккаунт"
+      },
+      "security": {
+        "security": "Безопасность"
+      },
+      "common": {
+        "wallets": "Кошельки",
+        "language": "Выбрать язык",
+        "fiat": "Валюта"
+      },
+
+      "walletConnect": {
+        "walletConnect": "Wallet Connect"
+      },
+
+      "version": {
+        "version": "Версия"
+      }
+    }
+  },
+  "selectCurrencyFiat": {
+    "title": "Выбор валюты",
+    "successSetFiat": "Валюта успешно изменена"
+  },
+  "cabinet": {
+    "header": {
+      "title": "Аккаунт"
+    },
+    "authorization": {
+      "title": "Авторизация",
+      "subtitle": "",
+      "login": "Логин",
+      "loginPlaceholder": "email@mail.ru",
+      "password": "Пароль",
+      "passwordPlaceholder": "********",
+      "buttonLogin": "Авторизоваться"
+    }
+  },
+  "security": {
+    "title": "Безопасность",
+
+    "blockingMethod": {
+      "title": "Метод блокировки",
+      "passCode": "Код доступа",
+      "passCodeBiometric": "Код доступа / Биометрия"
+    }
+  },
+  "navigation": {
+    "dashboard": "Дашборд",
+    "wallet": "Кошелёк",
+    "browser": "Браузер",
+    "trading": "Трейдинг",
+    "account": "Аккаунт"
+  },
+  "yup": {
+    "string": "Введена не строка",
+    "required": "Обязательно к заполнению",
+    "email": "Некоректный Email",
+    "min": "Минимальная длина {{min}}"
+  },
+  "notification": {
+    "systemNotification": "Системное уведомление",
+    "addBuffer": "Успешно добавлен в буфер обмена"
+  },
+  "convertorBitness": {
+    "million": "Миллион",
+    "millionShort": "млн",
+    "billion": "Миллиард",
+    "billionShort": "млдр",
+    "trillion": "Триллион",
+    "trillionShort": "трлн",
+    "quadrillion": "Квадриллион",
+    "quadrillionShort": "Квадриллион",
+    "quintillion": "Квинтиллион",
+    "quintillionShort": "Квинтиллион",
+    "sextillion": "Секстиллион",
+    "sextillionShort": "Секстиллион"
+  },
+  "alertConfirmation": {
+    "buttonSuccess": "Да",
+    "buttonCancel": "Отменить"
+  },
+  "errorWalletApi": {
+    "system-error": "Системная ошибка",
+    "insufficient-funds": "Недостаточно средств",
+    "password-not-correct": "Неправильный логин или пароль"
+  },
+  "languages": {
+    "ru-RU": "Русский",
+    "en-EN": "Английский"
+  },
+  "netInfo": {
+    "message": "Нет подключения к сети"
+  },
+  "applicationGreeting": {
+    "stage1": {
+      "label": "Мультифункциональный\nкриптокошелёк",
+      "message": "Следите за показателями своей\nкриптовалюты в кошельке\nи на бирже"
+    },
+    "stage2": {
+      "label": "Смарт\nтрейдинг",
+      "message": "Подключайтесь по API\nк различным биржам и торгуйте\nиз одного терминала"
+    },
+    "stage3": {
+      "label": "Автоматизированная\nторговля",
+      "message": "Создавайте\n и управляйте торговыми ботами"
+    },
+
+    "buttonNext": "Продолжить",
+    "buttonStart": "Начать"
+  },
+  "walletInformationCard": {
+    "profitDay": "за день"
+  },
+
+
+
+  "walletConnect": {
+    "wantsConnectYourWallet": "хочет подключиться к вашему кошельку",
+    "wiewWalletBalanceActivity": "Просмотр баланса и активности кошелька",
+    "requestApprovalTransactions": "Запрос на одобрения транзакций"
+  },
+  "qualifications": {
+    "not": "Нет заряда"
+  },
+  "popUpSuccessTransaction": {
+    "title": "Транзакция успешно прошла"
+  },
+  "popUpLoadTransaction": {
+    "title": "Ожидается транзакция"
+  },
+  "tokenWattBusdTopUp": {
+    "headerTitle": "Пополнить",
+    "course": "Курс",
+    "formSendTitle": "Отправляете",
+    "formGetTitle": "Получаете",
+    "formInputPlaceholder": "Введите сумму в {{code}}",
+    "footerMessage": "Для пополнения Lock Pool Вам нужно перевести {{coinSend}} \nна адрес контракта. Для комиссии Вам понадобится \nнебольшое количество {{coinCommission}}, примерно $0.5.",
+    "errors": {
+      "notWallet": "Нет кошелька {{code}}",
+      "notEnterAmount": "Введена некоректная сумма",
+      "insufficientBalance": "Введенна сумма превышает баланс кошелька: {{code}}",
+      "insufficientBalancePoll": "В пуле недостаточно средств: {{code}}"
+    },
+    "popUpConfirm": {
+      "title": "Подтверждение",
+      "message": "Вы действительно хотите пополнить свой баланс {{getCode}} на сумму {{getAmount}}? С вашего кошелька {{fromCode}} спишутся {{fromAmount}} {{fromAmountCode}}"
+    }
+  },
+  "tokenWattP2PPool": {
+    "headerTitle": "P2P Pool",
+    "p2PPoolInfo": {
+      "P2PPool": "P2P Pool",
+      "coins": "Монеты",
+      "purchaseAddress": "Адрес для покупки",
+      "topUpAddress": "Адрес для пополнения"
+    },
+    "myP2PPool": {
+      "totalAmountFromPool": "Общая сумма в пуле",
+
+      "amountFromPool": "Сумма в пуле",
+      "poolQueue": "Очередь в пуле",
+      "withdrawFromP2PPool": "Вывести из P2P пула"
+    },
+    "popUpInfoP2PPool": {
+      "title": "P2P Pool",
+      "message": "Для создания автоматической заявки на продажу токенов WATT на вторичном рынке, \nВам необходимо отправить свои токены WATT \nв смарт контракт P2P Pool. \nЦена продажи устанавливается заранее. \nПродажа и отправка вам BUSD осуществляются автоматически, в момент внесения покупателем своих BUSD на счет смарт контракта.",
+      "caption": "Если в течение недели, Ваша заявка не будет куплена, смарт контракт вернет ваши токены \nи Вам нужно будет отправить \nтокены для продажи повторно.",
+      "successButton": "Ок"
+    },
+    "popUpWithdrawFunds": {
+      "title": "Вывод средств",
+      "message": "Введите сумму, которую хотели бы вывести",
+      "amountPlaceholder": "Ввод"
+    }
+  },
+  "tokenWattTopUp": {
+    "headerTitle": "Пополнить WATT",
+    "sliderAmount": {
+      "totalAmountPool": "Общая сумма в пуле",
+      "remainder": "Остаток"
+    },
+    "availableAmountTokens": {
+      "label": "Доступная сумма токенов"
+    },
+    "roundInformation": {
+      "untilEndRound": "До конца {{round}} раунда",
+      "startNextRound": "Начало следующего раунда:"
+    },
+    "calcForm": {
+      "inputPlaceholder": "Введите сумму в BUSD",
+      "youGet": "Вы получите"
+    },
+    "footer": {
+      "message": "Для пополнения Lock Pool Вам нужно \nперевести BUSD на адрес контракта. \nДля комиссии Вам понадобится \nнебольшое количество BNB, максимально $0.5.",
+      "labelConfirm": "Я ознакомился и согласен с Соглашением о приобретении WATT"
+    },
+    "deal": {
+      "errorAmount": "Введите сумму BUSD",
+      "errorWalletNotFount": "Перед пополнение WATT необходимо импортировать кошелек BUSD",
+      "errorWalletBusdBalance": "Недостататочно средств.\nМаксимальная сумма отправки - {{amount}}",
+
+      "titleGetWattPopUp": "Пополнение WATT",
+      "messageGetWattPopUp": "Вы отправляете {{amount}} BUSD, взамен вы получите {{amountWatt}} WATT"
+    }
+  },
+  "tokenWattBuyingToken": {
+    "headerTitle": "Токен WATT",
+    "tokenCard": {
+      "title": "Токен WATT",
+      "about": "Подробнее",
+
+      "roundTitle": "РАУНД",
+      "roundPrice": "Цена",
+      "roundQuantity": "Осталось"
+    },
+    "purchaseInformation": {
+      "message": "Для того, чтобы купить токен WATT нажмите «Купить» и отправьте BUSD на адрес смарт контракта компании.",
+      "caption": "Адрес смарт контракта введеться автоматически"
+    },
+    "lockPool": {
+      "lockPool": "Lock Pool",
+      "coins": "Монеты",
+      "completeDefrostPoolWillOccur": "Разморозка пула начнётся через",
+      "thawed": "Разморожено",
+      "bounty": "Bounty",
+      "p2pPool": "P2P Pool"
+    },
+    "popUpBounty": {
+      "title": "Bounty Pool",
+      "message": "Bounty Pool заработает \nв ближайшее время"
+    },
+    "p2PPoll": {
+      "label": "P2P Pool",
+      "coins": "Монеты",
+      "addressBuy": "Адрес для покупки",
+      "addressTopUp": "Адрес для пополнения",
+
+      "buttonBuy": "Пополнить BUSD",
+      "buttonTopUp": "Пополнить WATT",
+
+      "popUpTitle": "P2P Pool",
+      "popUpCaption": "Для создания автоматической заявки на продажу токенов WATT на вторичном рынке, \nВам необходимо отправить свои токены WATT \nв смарт контракт P2P Pool. \nЦена продажи устанавливается заранее. \nПродажа и отправка вам BUSD осуществляются автоматически, в момент внесения покупателем своих BUSD на счет смарт контракта.",
+      "popUpMessage": "Если в течение недели, Ваша заявка не будет куплена, смарт контракт вернет ваши токены \nи Вам нужно будет отправить \nтокены для продажи повторно."
+    },
+    "whitePaper": {
+      "message": "Для того, чтобы узнать более подробную информацию о токене WATT, изучите Lite Paper",
+      "button": "Lite Paper"
+    },
+    "aboutTokenWatt": {
+      "label": "Что такое WATT?",
+      "messageAboutWatt": "это токен, измеряющий мощность жизненной энергии. Им Вы можете поощрять своих клиентов, друзей, подписчиков или фанатов.\nОн несёт также в себе мощь принципа «6 рукопожатий» и «сарафанного радио». \nТаким образом, токен WATT становится инструментом для стимулирования взаимодействий между людьми и бизнесами.",
+
+      "energyLabel": "Заряжайся мощной энергией WATT,\n",
+      "energyMessage": "рекомендуя то, что будет полезно другим людям - будь то это товар, услуга, специалист или полезная информация. ",
+
+      "get": "Получай",
+      "send": "Отправляй",
+      "accumulate": "Накапливай",
+
+      "infoSectionLabel": "используй мощь ЭНЕРГИИ во благо!"
+    },
+    "aboutPreSaleWatt": {
+      "label": "Что такое Pre-Sale WATT?",
+      "caption": "В рамках запуска токеномики проекта, компания проводит закрытую продажу токенов первым участникам по привлекательной цене.",
+
+      "round": "Раунд",
+      "tokenPublicOfferingRoundsWillKickOff": "Раунды публичного предложения токена будут стартовать",
+
+      "messageReachingGoalsDeadline": "В случае достижения одной из целей ранее установленного срока, включается продажа следующего раунда. если до установленного срока раунд не был выкуплен, остаток не проданных токенов добавляется к объему следующего раунда и продается по соответствующей цене для данного раунда.",
+
+      "tokensPurchasedPresaleLocked": "Токены купленые в Pre-Sale находяться в заблокированном состоянии в течение 365 дней с момента покупки. В конце данного срока разморозка токенов происходит равными частями в течение 35 дней.",
+      "whatTeedBuy": "Для покупки токена WATT вам потребуется сумма в BUSD и небольшое количество (примерно на $5) BNB для оплаты комиссии для транзакции."
+    },
+    "sliderLockPool": {
+      "totalAmountPool": "Lock Pool (Раунд {{round}} - {{amount}}$)",
+      "information": "Информация",
+      "transactions": "Транзакции"
+    },
+    "frozenFunds": {
+      "poolDefrostWillStart": "Разморозка пула начнется через",
+      "thawed": "Разморожено"
+    },
+    "exchanger": {
+      "title": "P2P обменник",
+      "exchange": "Обменять"
+    }
+  },
+  "tokenWattInformation": {
+    "headerTitle": "Информация"
+  },
+  "tokenWattTransactions": {
+    "headerTitle": "Последние операции",
+
+    "sent": "Отправлено",
+    "received": "Получено",
+
+    "date": "Дата",
+    "recipient": "Получатель",
+    "sender": "Отправитель",
+    "networkFee": "Сетевой сбор",
+    "showFromBlockChain": "Просмотр в обозревателе блоков"
+  },
+  "accountDocuments": {
+    "headerTitle": "Документы",
+    "termsOfUseTitle": "Пользовательское соглашение",
+    "termsOfUseCaption": "Файл в формате PDF",
+    "privacyPolicyTitle": "Политика конфиденциальности и обработки файлов cookie",
+    "privacyPolicyCaption": "Файл в формате PDF",
+    "distributorAgreementTitle": "Дистрибьюторский договор",
+    "distributorAgreementCaption": "Файл в формате PDF"
+  },
+  "accountMyTeam": {
+    "headerTitle": "Моя команда",
+    "placeholderSearch": "Поиск по личным данным",
+    "commandTreeComingSoon": "Командное дерево скоро появится",
+    "controlsTabs": {
+      "wood": "Дерево",
+      "referrals": "Рефералы"
+    },
+    "myReferrals": {
+      "countReferrals": "Количество рефералов",
+      "referralUserCountLabel": "реферала"
+    },
+    "referralTree": {
+      "leftCommand": "Левая команда",
+      "rightCommand": "Правая команда",
+      "participants": "Участники",
+      "points": "Баллы",
+      "lowerLeftParticipant": "Левый нижний участник",
+      "lowerRightParticipant": "Правый нижний участник",
+      "messageLoading": "Идет загрузка..."
+    },
+    "userCard": {
+      "personallyInvited": "Лично приглашенные",
+      "packageActivated": "Активирован пакет",
+      "curator": "Куратор",
+      "registrationDate": "Дата регистрации",
+      "totalCountParticipants": "Моя команда"
+    }
+  },
+  "accountWalkFame": {
+    "headerTitle": "Аллея славы",
+    "allQualifications": {
+      "title": "Количество квалификаций, достигнутое пользователем за все время"
+    }
+  },
+  "accountQualifications": {
+    "headerTitle": "Заряд",
+    "buttonWalkFame": "Аллея славы",
+    "currentQualifications": {
+      "title": "Текущий заряд",
+      "messageEndCurrentQualification": "До конца месяца осталось",
+      "monthlyVolumeSmallDirection": "Объем за месяц в малом направлении",
+      "leadershipBonusLevel": "Уровень лидерского бонуса",
+      "currentQualification": "Максимальный\nзаряд",
+      "nextCurrentQualification": "Ваш заряд в следующем месяце"
+    }
+  },
+  "accountStatistics": {
+    "headerTitle": "Статистика",
+
+    "tabs": {
+      "checks": "ТОР-20 чеков",
+      "qualification": "ТОП-20 зарядов"
+    },
+    "sort": {
+      "allTime": "За все время",
+      "month": "Месяц",
+      "year": "Год"
+    }
+  },
+  "accountProfileMeEdit": {
+    "headerTitle": "Мой профиль",
+    "changePassword": "Изменить пароль",
+    "successChangePassword": "Пароль успешно изменен",
+    "wisewinPatronNotFount": "Наставник не найден",
+    "profileInformation": {
+      "userNameEmpty": "Имя",
+      "userLastNameEmpty": "Фамилия",
+      "changeAvatar": "Изменить аватар",
+      "notQualification": "Нет заряда"
+    },
+    "form": {
+      "informationMessageDanger": "Важно!",
+      "informationMessage": "Указывайте реальные данные, \nэто поможет вам в будущем формировать \nименные выписки и документы автоматически.",
+      "emailLabel": "Почта",
+      "emailCaption": "(необязательно)",
+      "emailPlaceholder": "trader@gmail.com",
+      "curatorLabel": "Наставник",
+      "curatorCaption": "(необязательно)",
+      "curatorMessage": "Если Вы не знаете реферальный код куратора, пропустите данное поле",
+      "curatorPlaceholder": "Введите реферальный код",
+      "firstNameLabel": "Имя",
+      "firstNameCaption": "(реальное имя)",
+      "firstNamePlaceholder": "Введите имя",
+      "lastNameLabel": "Фамилия",
+      "lastNameCaption": "(реальная фамилия)",
+      "lastNamePlaceholder": "Введите фамилию",
+      "middleNameLabel": "Отчество",
+      "middleNameCaption": "(реальное отчество)",
+      "middleNamePlaceholder": "Введите отчество",
+      "dateBirthLabel": "Дата рождения",
+      "dateBirthPlaceholder": "00.00.00",
+      "countryLabel": "Страна",
+      "countryPlaceholder": "Введите страну",
+      "cityLabel": "Город",
+      "cityPlaceholder": "Введите город",
+      "phoneLabel": "Телефон",
+      "phonePlaceholder": "Введите номер телефона",
+      "telegramUsernameLabel": "Telegram Username",
+      "telegramUsernameCaption": "(Username без @)",
+      "telegramUsernamePlaceholder": "Введите username",
+      "buttonSave": "Сохранить изменения"
+    },
+    "notification": {
+      "successUpdateForm": "Информация пользователя успешно обновлена"
+    },
+    "errorsChangPassword": {
+      "not-found": "Неправильный пароль"
+    },
+    "errorsChangeProfile": {
+      "inCorrectField": "Ошибка поля: {{field}} - некорректное значение"
+    }
+  },
+  "accountProfileMe": {
+    "headerTitle": "Мой профиль",
+    "email": "Почта",
+    "mentor": "Наставник",
+    "qualification": {
+      "not": "Нет заряда"
+    },
+    "additionalInformation": {
+      "dateBirth": "Дата рождения",
+      "country": "Страна",
+      "city": "Город",
+      "phone": "Телефон",
+      "telegram": "Telegram Username"
+    },
+    "branchForRegistration": {
+      "title": "Ветка для регистрации",
+      "left": "Левый",
+      "right": "Правый",
+      "mentorId": "Мой реф код",
+      "successCopyMentorId": "ID наставника успешно скопировано",
+      "successCopyWattMeLink": "Ссылка успешно скопирована",
+      "successChangeDirect": "Ветка регистрации успешно измененеа",
+      "messageQrCodeMentor": "Ваш реферальный QR-код"
+    },
+    "passwordSection": {
+      "label": "Пароль аккаунта"
+    }
+  },
+  "accountBackOffice": {
+    "headerTitle": "Аккаунт",
+    "messageNotCurator": "В ближайшее время Вам будет присвоен куратор и у Вас появятся новые возможности",
+    "tokenWatt": "Токен WATT",
+    "myTeam": "Моя команда",
+    "tariff": {
+      "title": "Энергия",
+      "currentTariff": "Текущая энергия:",
+      "messageStartBuyTariff": "Пополнение энергии откроется через"
+    },
+    "ecosystemParticipants": {
+      "title": "Участники экосистемы",
+      "statistics": "Статистика",
+      "qualifications": "Заряд"
+    },
+    "walletAddress": {
+      "label": "Адрес кошелька",
+      "addressPlaceholder": "Введите адрес кошелька",
+      "errorValidAddress": "Неправильный формат адреса кошелька",
+      "successSetupAddress": "Адрес кошелька успешно установлен",
+      "walletAlreadyExist": "Кошелек уже установлен. Свяжитесь с тех. поддержкой.",
+      "successCopyWalletAddress": "Адрес кошелька успешно скопирован"
+    },
+    "popUpUserConflict": {
+      "label": "Пользователь с таким E-mail уже существует",
+      "buttonLogin": "Войти",
+      "buttonReset": "Восстановить пароль"
+    }
+  },
+  "accountConfirmRegistration": {
+    "title": "Подтверждение",
+    "message": "На адрес вашей электронной почты отправлено письмо с временным паролем.\nВведите пароль ниже и нажмите Подтвердить",
+    "verificationCodePlaceholder": "Введите временный пароль",
+    "errors": {
+      "step1": {
+        "invalid-data": "Неправильный пароль"
+      },
+      "step2": {}
+    },
+    "successPopUp": {
+      "title": "Добро пожаловать",
+      "message": "Ваша электронная почта подтверждена"
+    }
+  },
+  "accountConfirmForgotPassword": {
+    "title": "Подтверждение",
+    "message": "Введите полученный временный пароль ниже и нажмите Подтвердить",
+    "verificationCodePlaceholder": "Введите временный пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "passwordRepeatPlaceholder": "Повторите пароль",
+    "errors": {
+      "invalid-data": "Неправильный код подтверждения",
+      "passwordsMustMatch": "Пароли не совпадают"
+    },
+    "popUpSuccess": {
+      "title": "Поздравляем",
+      "message": "Новый пароль создан успешно"
+    }
+  },
+  "accountRegistration": {
+    "title": "Регистрация",
+    "message": "Введите адрес вашей электронной почты",
+    "emailPlaceholder": "Введите E-mail",
+    "messageConfirm": "Пожалуйста, подтвердите, что вы ознакомились и согласны со следующими документами",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfUse": "Пользовательское соглашение",
+    "errors": {
+      "confict": "Пользователь уже зарегистрирован"
+    }
+  },
+  "accountForgotPassword": {
+    "title": "Забыли пароль",
+    "message": "Пожалуйста введите свою электронную почту, чтобы получить временный пароль",
+    "emailPlaceholder": "Введите E-mail",
+    "error": {}
+  },
+  "accountLogin": {
+    "title": "Вход",
+    "message": "Введите адрес вашей электронной почты и пароль, чтобы войти в аккаунт",
+    "emailPlaceholder": "Введите E-mail",
+    "passwordPlaceholder": "Введите пароль",
+    "forgotPassword": "Забыли пароль",
+    "registration": "Регистрация",
+    "errors": {
+      "invalid-data": "Неправильный логин / пароль",
+      "not-found": "Пользователь не найден"
+    }
+  },
+  "settingsPushNotification": {
+    "headerTitle": "Push-уведомления",
+    "allowPushNotifications": "Разрешить Push-уведомления",
+    "sentAndReceived": "Отправлено и получено",
+    "message": "Вы будете уведомлены об отправленных и полученных транзакциях"
+  },
+  "settingsSecurity": {
+    "headerTitle": "Безопасность",
+    "blockingMethod": {
+      "title": "Метод блокировки",
+      "accessCode": "Код доступа",
+      "accessCodeBiometrics": "Код доступа / биометрия"
+    },
+    "touchID": {
+      "title": "Touch ID",
+      "toEnter": "Для входа",
+      "forSignature": "Для подписи"
+    },
+    "changePassword": "Изменить пароль"
+  },
+  "errors":{
+    "internal-error":"Ошибка сервера",
+    "noSeedPhrase": "В вашем кошельке нет SEED фразы, отправка транзакции невозможна"
+  },
+  "filterPage":{"headerTitle":"Фильтра"},
+
+  "tradingItem": {
+    "status": {
+      "NEW": "Активен",
+      "PARTIALLY_FILLED": "Частично выполнен",
+      "FILLED": "Выполнен",
+      "CANCELED": "Отменен",
+      "PENDING_CANCEL": "Не используется",
+      "REJECTED": "Не принят",
+      "EXPIRED": "Отменен сервисом"
+    }
+  },
+  "tradingSelectPair": {
+    "headerTitle": "Выберите пару",
+    "searchPlaceholder": "Введите пару"
+  },
+  "tradingSmartTradeCreate": {
+    "headerTitle": "Smart Trade",
+    "typeTabs": {
+      "buy": "Покупка",
+      "sell": "Продажа"
+    },
+    "controls": {
+      "tabs": {
+        "tabLimit": "Лимитный",
+        "tabMarket": "Рыночный",
+        "tabConditional": "Условный"
+      },
+      "titlePrice": "Цена",
+      "titleUnits": "Единицы"
+    },
+    "total": {
+      "totalTitle": "Всего"
+    },
+    "createSuccess": {
+      "SUCCESS_CREATE_ORDER_LIMIT": "Заказ успешно создан"
+    },
+    "createErrors": {
+      "MIN_NOTIONAL_MIN": "Минимальная сумма сделки -",
+      "LOT_SIZE_MIN": "Минимальное значение \"Единицы\" -",
+      "LOT_SIZE_MAX": "Максимальное значение \"Единицы\" -",
+      "PRICE_FILTER_MIN": "Минимальная стоимость -",
+      "PRICE_FILTER_MAX": "Максимальная стоимость -",
+      "-2010": "На аккаунте недостаточно средств для выполнения запрошенного действия.",
+      "-2015": "Неверный API-ключ, IP или разрешения на действие.",
+      "-1013": "Некорректное количество",
+      "internal-error": "Ошибка сервера"
+    },
+    "installTP": "Установить TP",
+    "installSL": "Установить SL",
+    "makeDeal": "Оформить сделку",
+    "makeDealLoad": "Обновление информации"
+  },
+  "tradingTradeInfo": {
+    "headerTitle": "Smart Trade",
+    "tradeControl": {
+      "refresh": "Обновить",
+      "average": "Усреднить",
+      "decrease": "Уменьшить",
+      "edit": "Редактировать",
+      "cancel": "Отменить"
+    },
+    "goals": {
+      "waitingForGoals": "Ожидание целей"
+    },
+    "informationDial": {
+      "units": "Единицы",
+      "purchase": "Покупка",
+      "createdBy": "Создан",
+      "total": "Всего",
+      "closeByMarket": "Закрыть по рынку"
+    },
+    "popUpMessage": {
+      "inputPlaceholder": "Ввод"
+    },
+    "cancelOrder": {
+      "successMessage": "Сделка отменена"
+    }
+  },
+  "tradingDashboard": {
+    "headerTitle": "Трейдинг",
+    "tabs": {
+      "smartTrade": "SmartTrade",
+      "bots": "Боты"
+    },
+    "sorting": {
+      "date": "Дата"
+    },
+    "tabSmartTrade": {
+      "title": "Сделки"
+    },
+    "filter": {
+      "status": {
+        "label": "Статус",
+        "all": "Все",
+        "active": "Активные",
+        "completed": "Завершенные"
+      },
+      "account": {
+        "label": "Аккаунт",
+        "all": "Все"
+      }
+    },
+    "bots": {
+      "botsWillWorkSoon": "Боты заработают в ближайшее время"
+    }
+  },
+  "binanceConnection": {
+    "headerTitle": "Binance",
+    "buttonConnect": "Подключить",
+    "errorWalletScan": "Не удалось распознать QR код",
+    "form": {
+      "nameLabel": "Название",
+      "namePlaceholder": "My Binance account",
+      "nameError": "Название не может быть пустым",
+      "apiKeyLabel": "API ключ",
+      "apiKeyPlaceholder": "API ключ",
+      "apiKeyError": "API ключ не может быть пустым",
+      "secretLabel": "Secret",
+      "secretPlaceholder": "Secret",
+      "secretError": "Secret не может быть пустым"
+    },
+    "errorConnection": {
+      "internal-error": "Ошибка сервера"
+    }
+  },
+
+  "modalWelcome": {
+    "title": "Добро пожаловать",
+    "message": "Теперь вы можете подключить \nбиржевой аккаунт через API ключ"
+  },
+
+  "popUpForgotPassword": {
+    "step1": {
+      "title": "Забыли пароль",
+      "message": "Пожалуйста введите свою электронную почту, чтобы получить временный пароль",
+      "emailPlaceholder": "Введите E-mail"
+    },
+    "step2": {
+      "title": "Подтверждение",
+      "message": "Введите полученный код подтверждения и нажмите Подтвердить",
+      "codePlaceholder": "Введите код подтверждения",
+      "buttonRepeatVerificationCode": "Выслать код повторно"
+    },
+    "successNotification": {
+      "title": "Поздравляем",
+      "message": "Новый пароль создан успешно"
+    }
+  },
+  "popUpChangePassword": {
+    "title": "Изменить пароль",
+    "titleNewPassword": "Установить пароль",
+    "buttonLabel": "Подтвердить",
+    "form": {
+      "oldPasswordLabel": "Старый пароль",
+      "oldPasswordPlaceholder": "Введите старый пароль",
+      "oldPasswordError": "",
+      "newPasswordLabel": "Новый пароль",
+      "newPasswordPlaceholder": "Придумайте новый пароль",
+      "newPasswordError": "",
+      "repeatNewPasswordLabel": "Повторить новый пароль",
+      "repeatNewPasswordPlaceholder": "Повторите новый пароль",
+      "repeatNewPasswordError": ""
+    }
+  },
+  "popUpRegistration": {
+    "stepRegistration": {
+      "title": "Регистрация",
+      "message": "Для полного функцианала сначало пройдите регистрацию в экосисему WATT",
+      "emailPlaceholder": "Введите E-mail",
+      "iAgree": "Я согласен",
+      "termsOfWatt": "Условия WATT",
+      "errors": {
+        "confict": "Пользователь с данным Email адресом уже зарегестрирован."
+      }
+    },
+    "stepConfirmation": {
+      "title": "Подтверждение",
+      "message": "На адрес вашей электронной почты \nотправлено письмо с кодом подтверждения.\nВведите пароль и нажмите Подтвердить",
+      "verificationCodePlaceholder": "Введите код подтверждения",
+      "buttonRepeatVerificationCode": "Выслать код повторно",
+      "successRepeatSendVerification": "Код подтверждения отправлен",
+      "errors": {
+        "confict": "Пользователь с данным Email адресом уже зарегестрирован.",
+        "invalid-data": "Некорректный код подтверждения"
+      }
+    },
+    "successRegistration": {
+      "title": "Добро пожаловать",
+      "message": "Ваша электронная почта подтверждена"
+    },
+    "buttonConnect": "Подключиться",
+    "buttonConfirm": "Подтвердить"
+  },
+
+  "dashboardHomeSettings": {
+    "caption": "Выберите, что вы хотели бы видеть в Dashboard.\nПри желании поменяйте разделы местами, перетащив их за кнопку справа.",
+    "captionFooter": "Вы можете вернуться к изначальным настройкам отображения, если вам не понравился результат изменений.",
+    "buttonDefault": "Вернуть по умолчанию",
+    "buttonSave": "Сохранить изменения",
+    "sections": {
+      "wallet": "Кошелёк",
+      "stockExchange": "Биржа",
+      "market": "Рынок",
+      "longShort": "Long Short",
+      "trades": "Трейды",
+      "bots": "Боты"
+    },
+    "success": {
+      "successSaveConfiguration": "Новая конфигурация успешно изменена"
+    }
+  },
+  "dashboardHome": {
+    "headerTitle": "Dashboard",
+    "walletAccount": {
+      "title": "Аккаунт кошелька",
+      "buttonConnect": "Подключиться",
+      "walletLabel": "Кошелёк"
+    },
+    "exchangeAccount": {
+      "title": "Биржа",
+      "caption": "Binance",
+      "titleNotConnection": "Биржевой аккаунт"
+    },
+    "marketInformation": {
+      "marketCapitalization": "Капитализация рынка",
+      "volumeIn24Hours": "Объём за 24 часа",
+      "dominanceBTC": "Доминация BTC"
+    },
+    "longShortBlock": {
+      "longTitle": "Long",
+      "shortTitle": "Short"
+    },
+    "infoWalletCreate": {
+      "title": "Кошелёк",
+      "message": "Для того, чтобы войти в данный раздел, необходимо создать или ввести  SEED фразу вашего кошелька",
+      "buttonCancel": "Отменить",
+      "buttonConfirm": "Ок"
+    },
+    "buttonSettingsDashboard": "Изменить Dashboard"
+  },
+
+  "modalNetworks": {
+    "turnOnCoin": "включите монету "
+  },
+  "walletBuyCrypto": {
+    "headerTitle": "Купить",
+    "currencyNotFound": "Упс...\nЭтой монеты нет в MoonPay",
+    "errorMinBuyAmount": "Минимальная сумма к покупке —",
+    "errorMaxBuyAmount": "Максимальная сумма к покупке —",
+    "dialInformation": {
+      "amount": "Сумма, для получения с учетом комиссии:",
+      "commission": "Комиссия:"
+    }
+  },
+  "popUpInformation": {
+    "close": "Закрыть",
+    "confirm": "Подтвердить"
+  },
+
+  "common": {
+    "yearAbbreviated": "г",
+    "copy": "Копировать",
+    "close": "Закрыть",
+    "delete": "Удалить",
+    "disable": "Отключить",
+    "append": "Добавить",
+    "proceed": "Продолжить",
+    "further": "Далее",
+    "cancel": "Отменить",
+    "route": "Перейти",
+    "confirm": "Подтвердить",
+    "save": "Сохранить",
+    "select": "Выбрать",
+    "about": "Подробнее",
+    "buy": "Купить",
+    "topUp": "Пополнить",
+    "exchange": "Обмен",
+    "receive": "Получить",
+    "soon": "Скоро",
+    "perDay": "за день",
+    "documents": "Документы",
+    "price": "Цена",
+    "look": "Посмотреть",
+    "ok": "Ок",
+    "address": "Адрес",
+    "name": "Имя",
+    "symbol": "Символ",
+    "decimals": "Decimals",
+    "peopleShort": "чел.",
+    "presentation": "Презентация",
+    "days": {
+      "day": "день",
+      "ofDay": "дня",
+      "days": "дней"
+    },
+    "hourse": {
+      "hour": "час",
+      "hours": "часа",
+      "hoursLong": "часов"
+    },
+    "minutes": {
+      "minute": "минута",
+      "minutes": "минуты",
+      "minutesLong": "минут"
+    }
+  },
+  "networks": {
+    "headerTitle": "Сеть"
+  },
+
+  "walletSecretPhrase": {
+    "header": {
+      "titleStep1": "Секретная фраза"
+    },
+    "step1": {
+      "infoPhrase1": "Фраза восстановления является мастер-ключом к вашим средствам. Никогда не делитесь им ни с кем другим.",
+      "infoPhrase2": "Watt Wallet никогда не попросит вас поделиться своей фразой для восстановления.",
+      "infoPhrase3": "Если вы потеряете фразу для восстановления, даже Watt Wallet не сможет вернуть ваши средства.",
+      "labelConfirm": "Я понимаю риски"
+    }
+  },
+  "walletCreateCustomCoin": {
+    "headerTitle": "Добавить",
+    "network": "Сеть",
+    "chooseNetwork": "Выберите",
+    "addressContract": "Адрес контракта",
+    "whatYourToken": "Что такое свой токен?",
+    "successCreateToken": "Токен успешно добавлен в Ваш кошелек",
+    "errorCreateToken": "Возникла ошибка создания токена, попробуйте позже.",
+    "error": {
+      "network": "Необходимо выбрать сеть",
+      "nameContract": "Необходимо заполнить имя токена",
+      "symbolContract": "Необходимо заполнить символ токена",
+      "addressContract": "Необходимо заполнить адрес контракта",
+      "decimalsContract": "Необходимо заполнить Decimals токена"
+    }
+  },
+  "walletCreate": {
+    "step1": {
+      "title": "Сделайте резервную копию\nвашего кошелька сейчас!",
+      "message": "На следующем шаге вы увидите 12 слов, которые позволят восстановить кошелёк",
+      "checkbox": "Я понимаю, что если я потеряю секретную фразу, я потеряю доступ к своему кошельку."
+    },
+    "step2": {
+      "title": "Ваша секретная фраза",
+      "message": "Запишите или скопируйте эти слова в правильном порядке и сохраните их в безопасном месте.",
+      "warn": "Никогда не передавайте фразу восстановления кому-либо, храните её надежно!",
+      "buttonCopy": "Скопировать",
+      "notificationCopy": "Ваша секретная фраза успешно скопирована"
+    },
+    "step3": {
+      "title": "Верифицировать фразу восстановления",
+      "message": "Нажмите слова, чтобы поместить их рядом друг с другом в правильном порядке.",
+      "errorMessage": "Неверный порядок. Попробуйте еще раз!"
+    },
+    "step4": {
+      "errorMessage": "Введите наименование кошелька"
+    },
+    "notifications": {
+      "successCreate": {
+        "message": "Кошелек успешно создан"
+      }
+    },
+    "nextStep": "Продолжить"
+  },
+  "headerMini": {
+    "cancel": "Отменить"
+  },
+  "walletChoiceAdding": {
+    "cancel": "Отменить",
+    "buttonCreate": "Создать новый кошелёк",
+    "buttonImport": "У меня уже есть кошелек",
+    "tabs": {
+      "tab1": {
+        "label": "Децентрализованный\nи безопасный",
+        "message": "Приватные ключи всегда находятся только в вашем устройсве и не покидают его."
+      },
+      "tab2": {
+        "label": "Всё\nв одном месте",
+        "message": "Удобный доступ ко всем криптовалютам и NFT коллекциям в одном приложении"
+      },
+      "tab3": {
+        "label": "Управляй всеми \nкриптокошельками",
+        "message": "Создавай и управляй своими крипто кошельками в одном устройсве\n"
+      }
+    },
+    "step1": {
+      "title": "Сделайте резервную копию\nвашего кошелька сейчас!",
+      "message": "На следующем шаге\nвы увидите 12 слов, которые позволят восстановить кошелёк",
+      "checkbox": "Я понимаю, что если я потеряю секретную фразу, я потеряю доступ к своему кошельку.",
+      "buttonNext": "Продолжить"
+    },
+    "step2": {
+      "title": "Ваша секретная фраза",
+      "message": "Запишите или скопируйте эти слова в правильном порядке и сохраните их в безопасном месте.",
+      "buttonCopy": "Скопировать",
+      "warningMessage": "Никогда не передавайте фразу восстановления кому-либо, храните её надежно!",
+      "buttonNext": "Продолжить"
+    },
+    "step3": {
+      "title": "Верифицировать фразу восстановления",
+      "message": "Нажмите слова, чтобы поместить их рядом друг с другом в правильном порядке."
+    },
+    "notificationCopy": {
+      "message": "Ваша секретная фраза добавлена в буфер обмена"
+    }
+  },
+  "modalCamera": {
+    "header": "Сканировать QR-код",
+    "errorScan": "Не удалось распознать QR код"
+  },
+  "settingsVersionApp": {
+    "headerTitle": "Версия",
+    "version": "Версия",
+    "whatNew": "Что нового"
+  },
+  "settingsHome": {
+    "header": "Настройки",
+    "user": {
+      "treeLeft": "Левый",
+      "treeRight": "Правый",
+      "tokenWatt": "Токен WATT"
+    },
+    "auth": {
+      "title": "Вход в аккаунт",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Пароль",
+      "buttonEnter": "Войти",
+      "forgotPassword": "Забыли пароль?",
+      "registration": "Регистрация",
+      "errors": {
+        "invalid-data": "Неправильный логин / пароль"
+      }
+    },
+    "menu": {
+      "wallet": "Кошелек",
+      "languageSelection": "Выбор языка",
+      "currency": "Валюта",
+      "walletConnect": "Wallet Connect",
+      "myExchanges": "Мои биржи",
+      "security": "Безопасность",
+      "theme": "Оформление",
+      "pushNotification": "Push - Уведомления",
+      "technicalSupport": "Техническая поддержка",
+      "privacyPolicy": "Политика конфидециальности",
+      "termsOfUse": "Пользовательское соглашение",
+      "versionApp": "Версия "
+    },
+    "popUpFiatCurrency": {
+      "title": "Валюта"
+    },
+    "popUpLanguage": {
+      "title": "Выбор языка"
+    },
+    "technicalSupport": {
+      "title": "Техническая поддержка",
+      "message": "Напишите нам через телеграмм бот, если у Вас возникли вопросы, пожелания или задачи технического плана",
+      "successButton": "Telegram"
+    },
+    "privacyPolicy": {
+      "title": "Политика конфиденциальности",
+      "message": "Перейдите по ссылке ниже, чтобы ознакомиться с политикой конфиденциальности",
+      "successButton": "Перейти"
+    },
+    "termsOfUse": {
+      "title": "Пользовательское соглашение",
+      "message": "Перейдите по ссылке ниже, чтобы ознакомиться с пользовательским соглашением",
+      "successButton": "Перейти"
+    }
+  },
+  "browserApp": {
+    "notifications": {
+      "addressCopySuccess": "Адрес успешно скопирован"
+    },
+    "sessionRequest": {
+      "title": "Подтверждение",
+      "message": "хочет подключиться к вашему кошельку",
+      "information1": "Просмотр баланса и активности кошелька",
+      "information2": "Запрос на одобрения транзакций"
+    }
+  },
+  "browserHome": {
+    "searchPlaceholder": "Найдите DApp или введите ссылку",
+    "categories": {
+      "allCategory": "Все категории",
+      "favorites": "Избранное"
+    },
+    "popUpWarningDapp": {
+      "message": "Вы собираетесь перенаправить на сторонний Dapp. Совершая перевод, убедитесь, что вы осведомлены о финансовых рисках. WATT Wallet не несет ответственности за любые убытки, вызванные использованием этого DApp."
+    }
+  },
+  "walletCoinReceive": {
+    "header": "Получить",
+    "message": "Отправляйте только {{coin}} на этот адрес.\n Отправка любых других монет может привести к их безвозвратной потере.",
+    "buttonCopy": "Скопировать",
+    "buttonAmount": "Сумма",
+    "notificationSuccessCopy": "Адрес успешно скопирован",
+    "notificationSuccessShare": "Адрес успешно отправлен",
+    "dialogAmount": {
+      "title": "Введите Сумму",
+      "placeholder": "Ввод",
+      "cancel": "Отменить",
+      "accept": "Подтвердить"
+    }
+  },
+  "walletCoinSendConfirm": {
+    "header": "Перевод",
+    "assets": "Актив",
+    "from": "От",
+    "to": "Кому",
+    "commission": "Сетевой сбор",
+    "maxTotal": "Макс Тотал",
+    "buttonConfirm": "Подтвердить",
+    "buttonUpdate": "Обновить",
+    "errorSignTransaction": "Произошла ошибка в моменте подписания транзакции, пожалуйста, повторите попытку позже",
+    "errorSendTransaction": "Произошла ошибка в моменте отправки транзакции, пожалуйста, повторите попытку позже",
+    "errorDealOutDate": "Сетевой сбор может измениться.\nОбновите информацию!",
+    "successSendTransaction": "Перевод успешно завершен",
+    "commissionPopup": {
+      "title": "Сетевой сбор",
+      "message": "Сеть {{networkName}} взимает сетевой сбор за транзакцию, которая зависит от использования блокчейна.\n\n0% от сетевого сбора выплачивается WATT ME."
+    }
+  },
+  "walletCoinSend": {
+    "header": "Отправить",
+    "buttonSend": "Отправить",
+    "buttonPast": "Вставить",
+    "buttonMaxAmount": "Макс",
+    "currentBalance": "Текущий баланс",
+    "form": {
+      "addressPlaceholder": "Адрес получателя",
+      "amountPlaceholder": "количество"
+    },
+    "errors": {
+      "insufficient-balance": "Недостаточно средств",
+      "invalid-data": "Предоставленные данные недействительны",
+      "internal-error": "Ошибка сервера",
+      "not-found": "Ошибка сервера",
+      "amountExceedsBalance": "Сумма ввода превышает баланс"
+    },
+    "success": {
+      "successBuyWattToken": "Токен успешно получен"
+    },
+    "popUpSendWatt": {
+      "title": "Сетевой сбор",
+      "message": "Вам будем начисленно {{amount}} WATT"
+    }
+  },
+  "walletCoin": {
+    "buttonBuy": "Купить",
+    "buttonInformation": "Информация",
+    "buttonSend": "Отправить",
+    "buttonReceive": "Получить",
+    "history": {
+      "translation": "Перевод",
+      "receipt": "Получение",
+      "toWhom": "Кому",
+      "fromWhom": "От кого"
+    }
+  },
+  "imageCropPicker": {
+    "title": "Редактирование изображения"
+  },
+  "walletControl": {
+    "header": "Управлять",
+    "backupOptions": {
+      "title": "Варианты для резервного копирования",
+      "caption": "Если вы потеряете доступ к этому устройству, \nваши средства будут утеряны, \nесли вы не сделаете резервное копирование!",
+      "labelSecretPhrase": "Показать секретную фразу"
+    },
+    "successWalletSaveTitle": "Успешно",
+    "successWalletSaveMessage": "Кошелек успешно изменен"
+  },
+  "walletChoosingWallet": {
+    "header": "Основной кошелек",
+    "multiSectionTitle": "Мульти-монентный кошелек",
+    "singleSectionTitle": "Кошельки",
+    "singleLabelWallet": "кошелек",
+    "multiCaptionWallet": "Мульти-монетный кошелек",
+    "deleteWalletConfirm": {
+      "title": "Вы уверены, что хотите удалить этот кошелёк?",
+      "message": "Убедитесь, что вы сделали резервное копирование Вашей SEED фразы."
+    },
+    "deleteWalletSuccess": "Кошелек успешно удален"
+  },
+  "walletCoinManagement": {
+    "header": "Управление монетами",
+    "searchPlaceholder": "Введите имя токена или адрес контракта"
+  },
+  "importWalletForm": {
+    "form": {
+      "nameLabel": "Имя",
+      "namePlaceholder": "Введите наименование кошелька",
+      "imageLabel": "Изменить аватар",
+      "phrasePlaceholder": "Секретная фраза",
+      "addressPlaceholder": "Адрес кошелька",
+      "privateKeyPlaceholder": "Приватный ключ",
+      "phraseCaption": "Обычно 12 (иногда 24) слова разделены одним пробелом",
+      "addressCaption": "Вы можете «смотреть» люой публичный адрес без разглашения Вашего приватного ключа",
+      "privateKeyCaption": "Обычно 64 алфавитно-цифровых знака"
+    },
+    "tabs": {
+      "phrase": "Фраза",
+      "address": "Адрес",
+      "privateKey": "Приватный ключ"
+    },
+    "errors": {
+      "errorForm": "Заполните \"Имя\" и \"Фраза\"/\"Адрес\""
+    },
+    "dialogErrorImportWallet": {
+      "title": "Ошибка фразы",
+      "message": "Эта фраза не поддерживается, вы хотите продолжить на свой страх и риск?",
+      "button": "Пропустить"
+    },
+    "buttonPast": "Вставить",
+    "provisionalAddress": "Импортируемый адрес",
+    "buttonImport": "Импортировать",
+    "successWalletImport": "Кошелек успешно добавлен"
+  },
+  "importWalletCoin": {
+    "headerTitle": "Импортировать",
+    "labelMultiVWallet": "Мульти-монетный кошелек"
+  }
+}

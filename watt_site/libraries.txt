@@ -1,0 +1,2 @@
+Cookies - https://www.npmjs.com/package/react-cookie
+Table - https://react-data-table-component.netlify.app/?path=/story/api-columns--page

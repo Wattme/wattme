@@ -1,0 +1,1 @@
+window.setImmedate = window.setTimeout;

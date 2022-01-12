@@ -1,0 +1,23 @@
+export interface ITransaction {
+    blockNumber: number;
+    timestamp: number;
+    hash: string;
+    nonce: number;
+    blockHash: string;
+    transactionIndex: number;
+    from: string;
+    to: string;
+    value: string;
+    actualValue: string;
+    gas: string;
+    gasPrice: string;
+    isError: number;
+    txReceiptStatus: number;
+    input: string;
+    contractAddress: string;
+    cumulativeGasUsed: string;
+    gasUsed: string;
+    confirmations: number;
+    decimals: number;
+    fee: string;
+};

@@ -1,0 +1,58 @@
+{
+  "landing": {
+    "banner": {
+      "title": "WATT.ME",
+      "caption": "more than just a wallet",
+      "message": "Multifunctional app for storing, buying and professional crypto currency trading as well as NFT-tokens storing.",
+      "li1": "User-friendly interface",
+      "li2": "Trendy design",
+      "li3": "Safe storage of crypto assets",
+      "li4": "Fast and easy coins purchase"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "message1": "Convenient toolbar display of the cost of all your assets.\nThe latest information for traders in real time and in one place.",
+      "message2": "Collect your personal dashboard from adjustable blocks. Change the display of your balance in different currencies with one swipe."
+    },
+    "wallet": {
+      "title": "Wallet",
+      "message1": "Completely decentralized multicurrency crypto wallet supports a huge amount of crypto currencies and tokens.",
+      "message2": "Your SEED phrase is stored only in your device and is never shared with anybody on the Internet.",
+      "message3": "Add crypto currency from the list or via smart-contract, track the currency graphs inside the app. Create several accounts for splitting your crypto assets and switch between them easily."
+    },
+    "nftCollection": {
+      "title": "NFT collections",
+      "message": "Make your own collection of NFT-tokens, store and swap them safely."
+    },
+    "buyingCrypto": {
+      "title": "Crypto currency purchase",
+      "message": "Use your bank card for a profitable crypto currency purchase. Buy different coins and tokens at the best rate with a couple of clicks."
+    },
+    "smartTrading": {
+      "title": "Smart Trading<br/>and trading bots",
+      "message1": "User-friendly terminal for trading allows you to make transactions on several exchanges fast and in one device. You will have some extra services available such as Trailing Buy, Trailing Stop Loss, Trailing Take Profit.",
+      "message2": "Create and customize for yourself unlimited number of trading bots, use different strategies and gain profit."
+    },
+    "wattMe": {
+      "title": "WATT ME",
+      "li1": "This is a universal app both for a beginner and for a professional trader",
+      "li2": "This is a connecting bridge to a whole ecosystem you can learn about reading our Lite Paper",
+      "whitePaper": "Lite Paper",
+
+      "downloadTitle": "Download WATT ME App"
+    }
+  },
+  "userAgreement": {
+    "title": "Пользовательское соглашение",
+    "message": "Пользовательское соглашение определяет права и обязанности владельцев сайтов, мобильных приложений и их пользователей при взаимодействии в Интернете.<br/>Соглашение имеет два вида целей: заявленные и реальные. <br/>К заявленным целям относятся намерение бизнеса рассказать о возможностях продукта, описать порядок работы с клиентами и дать исчерпывающие представления о средствах юридической защиты. Реальные цели более прагматичны – компаниям необходимо ограничить ответственность и защитить интеллектуальную собственность.<br/>С юридической точки зрения пользовательское соглашение является смешанной, непоименованной гражданским законодательством сделкой, которая заключается в виртуальном пространстве. Содержательно правоотношения между сторонами оформляются известными текущему правопорядку обязательствами. Как правило, в соглашении найдется место купле-продаже (Lamoda), оказанию услуг (Wildberries), агентированию и доставке (Delivery Club), даже лицензированию (все вышеперечисленные). И это далеко не предел."
+  },
+  "privacyPolicy": {
+    "title": "Политика конфиденциальности",
+    "message": "Пользовательское соглашение определяет права и обязанности владельцев сайтов, мобильных приложений и их пользователей при взаимодействии в Интернете.<br/>Соглашение имеет два вида целей: заявленные и реальные. <br/>К заявленным целям относятся намерение бизнеса рассказать о возможностях продукта, описать порядок работы с клиентами и дать исчерпывающие представления о средствах юридической защиты. Реальные цели более прагматичны – компаниям необходимо ограничить ответственность и защитить интеллектуальную собственность.<br/>С юридической точки зрения пользовательское соглашение является смешанной, непоименованной гражданским законодательством сделкой, которая заключается в виртуальном пространстве. Содержательно правоотношения между сторонами оформляются известными текущему правопорядку обязательствами. Как правило, в соглашении найдется место купле-продаже (Lamoda), оказанию услуг (Wildberries), агентированию и доставке (Delivery Club), даже лицензированию (все вышеперечисленные). И это далеко не предел."
+  },
+
+  "footer": {
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy"
+  }
+}
